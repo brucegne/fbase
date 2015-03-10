@@ -1,0 +1,2115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/action/.nvm/v0.10.11/bin/node',
+1 verbose cli   '/home/action/.nvm/v0.10.11/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'firebase-tools' ]
+2 info using npm@1.2.30
+3 info using node@v0.10.11
+4 verbose read json /home/action/workspace/package.json
+5 verbose read json /home/action/workspace/node_modules/firebase-tools/package.json
+6 verbose read json /home/action/workspace/package.json
+7 verbose cache add [ 'firebase-tools', null ]
+8 verbose cache add name=undefined spec="firebase-tools" args=["firebase-tools",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'firebase-tools',
+9 verbose parsed url   path: 'firebase-tools',
+9 verbose parsed url   href: 'firebase-tools' }
+10 silly lockFile 3fa4b23e-firebase-tools firebase-tools
+11 verbose lock firebase-tools /home/action/.npm/3fa4b23e-firebase-tools.lock
+12 silly lockFile 3fa4b23e-firebase-tools firebase-tools
+13 silly lockFile 3fa4b23e-firebase-tools firebase-tools
+14 verbose addNamed [ 'firebase-tools', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile 59c4bcc4-firebase-tools firebase-tools@
+17 verbose lock firebase-tools@ /home/action/.npm/59c4bcc4-firebase-tools.lock
+18 silly addNameRange { name: 'firebase-tools', range: '', hasData: false }
+19 verbose url raw firebase-tools
+20 verbose url resolving [ 'https://registry.npmjs.org/', './firebase-tools' ]
+21 verbose url resolved https://registry.npmjs.org/firebase-tools
+22 info trying registry request attempt 1 at 23:15:37
+23 verbose etag "352OJJNHRC9E7UE6VVJJLBF72"
+24 http GET https://registry.npmjs.org/firebase-tools
+25 http 304 https://registry.npmjs.org/firebase-tools
+26 silly registry.get cb [ 304,
+26 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+26 silly registry.get     server: 'Apache',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     etag: '"352OJJNHRC9E7UE6VVJJLBF72"',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-iad2127-IAD',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1425251737.149198,VS0,VE166',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'content-length': '0',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 verbose etag firebase-tools from cache
+28 silly addNameRange number 2 { name: 'firebase-tools', range: '', hasData: true }
+29 silly addNameRange versions [ 'firebase-tools',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.6',
+29 silly addNameRange     '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.1.4',
+29 silly addNameRange     '0.1.5',
+29 silly addNameRange     '0.1.6',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.0.4',
+29 silly addNameRange     '1.0.5',
+29 silly addNameRange     '1.0.6',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.1.2',
+29 silly addNameRange     '1.1.3',
+29 silly addNameRange     '1.1.4',
+29 silly addNameRange     '1.1.5' ] ]
+30 verbose addNamed [ 'firebase-tools', '1.1.5' ]
+31 verbose addNamed [ '1.1.5', '1.1.5' ]
+32 silly lockFile 82acac7c-firebase-tools-1-1-5 firebase-tools@1.1.5
+33 verbose lock firebase-tools@1.1.5 /home/action/.npm/82acac7c-firebase-tools-1-1-5.lock
+34 verbose read json /home/action/.npm/firebase-tools/1.1.5/package/package.json
+35 silly lockFile 82acac7c-firebase-tools-1-1-5 firebase-tools@1.1.5
+36 silly lockFile 82acac7c-firebase-tools-1-1-5 firebase-tools@1.1.5
+37 silly lockFile 59c4bcc4-firebase-tools firebase-tools@
+38 silly lockFile 59c4bcc4-firebase-tools firebase-tools@
+39 silly resolved [ { name: 'firebase-tools',
+39 silly resolved     description: 'Firebase command line tools',
+39 silly resolved     version: '1.1.5',
+39 silly resolved     author:
+39 silly resolved      { name: 'Firebase',
+39 silly resolved        email: 'support@firebase.com',
+39 silly resolved        url: 'https://www.firebase.com/' },
+39 silly resolved     homepage: 'https://github.com/firebase/firebase-tools/',
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'https://github.com/firebase/firebase-tools.git' },
+39 silly resolved     bugs: { url: 'https://github.com/firebase/firebase-tools/issues' },
+39 silly resolved     licenses: [ [Object] ],
+39 silly resolved     keywords:
+39 silly resolved      [ 'cdn',
+39 silly resolved        'cli',
+39 silly resolved        'ssl',
+39 silly resolved        'cloud',
+39 silly resolved        'hosting',
+39 silly resolved        'firebase',
+39 silly resolved        'realtime',
+39 silly resolved        'websockets',
+39 silly resolved        'synchronization' ],
+39 silly resolved     preferGlobal: true,
+39 silly resolved     bin: { firebase: './bin/firebase' },
+39 silly resolved     engines: { node: '>=0.10.0' },
+39 silly resolved     engineStrict: true,
+39 silly resolved     files: [ 'bin/**', 'lib/**', 'LICENSE', 'README.md', 'package.json' ],
+39 silly resolved     dependencies:
+39 silly resolved      { chalk: '0.5.x',
+39 silly resolved        firebase: '2.1.x',
+39 silly resolved        'fstream-ignore': '1.0.x',
+39 silly resolved        open: '0.0.x',
+39 silly resolved        optimist: '0.6.x',
+39 silly resolved        progress: '1.1.x',
+39 silly resolved        prompt: '0.2.x',
+39 silly resolved        request: '2.51.x',
+39 silly resolved        tar: '1.0.x',
+39 silly resolved        when: '3.6.x' },
+39 silly resolved     devDependencies:
+39 silly resolved      { chai: '^1.10.0',
+39 silly resolved        coveralls: '2.11.2',
+39 silly resolved        gulp: '3.8.10',
+39 silly resolved        'gulp-exit': '0.0.2',
+39 silly resolved        'gulp-istanbul': '0.5.0',
+39 silly resolved        'gulp-jshint': '1.9.0',
+39 silly resolved        'gulp-mocha': '2.0.0',
+39 silly resolved        'jshint-stylish': '1.0.0' },
+39 silly resolved     scripts: { test: 'gulp test', travis: 'gulp' },
+39 silly resolved     readme: '# firebase-tools\n\n[![Build Status](https://travis-ci.org/firebase/firebase-tools.svg?branch=master)](https://travis-ci.org/firebase/firebase-tools)\n[![Coverage Status](https://img.shields.io/coveralls/firebase/firebase-tools.svg?branch=master&style=flat)](https://coveralls.io/r/firebase/firebase-tools)\n[![NPM version](https://badge.fury.io/js/firebase-tools.svg)](http://badge.fury.io/js/firebase-tools)\n\nThese are the Firebase Command Line (CLI) Tools. They can be used to:\n\n* Administer your Firebase account\n* Interact with [Firebase Hosting](https://www.firebase.com/hosting.html), our product to host your\nstatic HTML, JS, CSS, images, etc.\n\nTo get started with the Firebase CLI, [read through our hosting quickstart guide](https://www.firebase.com/docs/hosting.html).\n\n\n## Installation\n\nTo install the Firebase CLI, you first need to [sign up for a Firebase account](https://www.firebase.com/signup/).\n\nThen you need to install [Node.js](http://nodejs.org/) and [npm](https://npmjs.org/). Note that\ninstalling Node.js should install npm as well.\n\nOnce npm is installed, get the Firebase CLI by running the following command:\n\n```bash\nnpm install -g firebase-tools\n```\n\nThis will provide you with the globally accessible `firebase` command.\n\n\n## Commands\n\nThe command `firebase --help` lists the available commands and `firebase <command> --help` shows\nmore details for an individual command.\n\nYou can get more information about the available commands in our\n[command line documentation](https://www.firebase.com/docs/hosting/command-line-tool.html).\n\n\n## Credit\n\nInspired by [Luke Vivier](https://github.com/lvivier/)\'s Firebase command line tools.\n',
+39 silly resolved     readmeFilename: 'README.md',
+39 silly resolved     _id: 'firebase-tools@1.1.5',
+39 silly resolved     _from: 'firebase-tools@' } ]
+40 info install firebase-tools@1.1.5 into /home/action/workspace
+41 info installOne firebase-tools@1.1.5
+42 verbose from cache /home/action/.npm/firebase-tools/1.1.5/package/package.json
+43 info /home/action/workspace/node_modules/firebase-tools unbuild
+44 verbose read json /home/action/workspace/node_modules/firebase-tools/package.json
+45 verbose tar unpack /home/action/.npm/firebase-tools/1.1.5/package.tgz
+46 silly lockFile 0d5d0bb2-pace-node-modules-firebase-tools tar:///home/action/workspace/node_modules/firebase-tools
+47 verbose lock tar:///home/action/workspace/node_modules/firebase-tools /home/action/.npm/0d5d0bb2-pace-node-modules-firebase-tools.lock
+48 silly lockFile 43dfdb22-firebase-tools-1-1-5-package-tgz tar:///home/action/.npm/firebase-tools/1.1.5/package.tgz
+49 verbose lock tar:///home/action/.npm/firebase-tools/1.1.5/package.tgz /home/action/.npm/43dfdb22-firebase-tools-1-1-5-package-tgz.lock
+50 silly gunzTarPerm modes [ '755', '644' ]
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm extractEntry README.md
+53 silly gunzTarPerm extractEntry LICENSE
+54 silly gunzTarPerm extractEntry bin/firebase
+55 silly gunzTarPerm extractEntry lib/api.js
+56 silly gunzTarPerm extractEntry lib/app.js
+57 silly gunzTarPerm extractEntry lib/auth.js
+58 silly gunzTarPerm extractEntry lib/firebase.js
+59 silly gunzTarPerm extractEntry lib/help.js
+60 silly gunzTarPerm extractEntry lib/upload.js
+61 verbose read json /home/action/workspace/node_modules/firebase-tools/package.json
+62 silly lockFile 0d5d0bb2-pace-node-modules-firebase-tools tar:///home/action/workspace/node_modules/firebase-tools
+63 silly lockFile 0d5d0bb2-pace-node-modules-firebase-tools tar:///home/action/workspace/node_modules/firebase-tools
+64 silly lockFile 43dfdb22-firebase-tools-1-1-5-package-tgz tar:///home/action/.npm/firebase-tools/1.1.5/package.tgz
+65 silly lockFile 43dfdb22-firebase-tools-1-1-5-package-tgz tar:///home/action/.npm/firebase-tools/1.1.5/package.tgz
+66 info preinstall firebase-tools@1.1.5
+67 verbose from cache /home/action/workspace/node_modules/firebase-tools/package.json
+68 verbose readDependencies using package.json deps
+69 verbose from cache /home/action/workspace/node_modules/firebase-tools/package.json
+70 verbose readDependencies using package.json deps
+71 verbose cache add [ 'fstream-ignore@1.0.x', null ]
+72 verbose cache add name=undefined spec="fstream-ignore@1.0.x" args=["fstream-ignore@1.0.x",null]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: 'fstream-ignore@1.0.x',
+73 verbose parsed url   path: 'fstream-ignore@1.0.x',
+73 verbose parsed url   href: 'fstream-ignore@1.0.x' }
+74 verbose cache add name="fstream-ignore" spec="1.0.x" args=["fstream-ignore","1.0.x"]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: '1.0.x',
+75 verbose parsed url   path: '1.0.x',
+75 verbose parsed url   href: '1.0.x' }
+76 verbose addNamed [ 'fstream-ignore', '1.0.x' ]
+77 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+78 silly lockFile af40a466-fstream-ignore-1-0-x fstream-ignore@1.0.x
+79 verbose lock fstream-ignore@1.0.x /home/action/.npm/af40a466-fstream-ignore-1-0-x.lock
+80 silly addNameRange { name: 'fstream-ignore',
+80 silly addNameRange   range: '>=1.0.0- <1.1.0-',
+80 silly addNameRange   hasData: false }
+81 verbose url raw fstream-ignore
+82 verbose url resolving [ 'https://registry.npmjs.org/', './fstream-ignore' ]
+83 verbose url resolved https://registry.npmjs.org/fstream-ignore
+84 info trying registry request attempt 1 at 23:15:37
+85 verbose etag "CAHV03J2GXEXNP8NWCHN8X3J4"
+86 http GET https://registry.npmjs.org/fstream-ignore
+87 verbose cache add [ 'progress@1.1.x', null ]
+88 verbose cache add name=undefined spec="progress@1.1.x" args=["progress@1.1.x",null]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: 'progress@1.1.x',
+89 verbose parsed url   path: 'progress@1.1.x',
+89 verbose parsed url   href: 'progress@1.1.x' }
+90 verbose cache add name="progress" spec="1.1.x" args=["progress","1.1.x"]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: '1.1.x',
+91 verbose parsed url   path: '1.1.x',
+91 verbose parsed url   href: '1.1.x' }
+92 verbose addNamed [ 'progress', '1.1.x' ]
+93 verbose addNamed [ null, '>=1.1.0- <1.2.0-' ]
+94 silly lockFile 83fe3c06-progress-1-1-x progress@1.1.x
+95 verbose lock progress@1.1.x /home/action/.npm/83fe3c06-progress-1-1-x.lock
+96 verbose cache add [ 'open@0.0.x', null ]
+97 verbose cache add name=undefined spec="open@0.0.x" args=["open@0.0.x",null]
+98 verbose parsed url { protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: 'open@0.0.x',
+98 verbose parsed url   path: 'open@0.0.x',
+98 verbose parsed url   href: 'open@0.0.x' }
+99 verbose cache add name="open" spec="0.0.x" args=["open","0.0.x"]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: '0.0.x',
+100 verbose parsed url   path: '0.0.x',
+100 verbose parsed url   href: '0.0.x' }
+101 verbose addNamed [ 'open', '0.0.x' ]
+102 verbose addNamed [ null, '>=0.0.0- <0.1.0-' ]
+103 silly lockFile f647dcd5-open-0-0-x open@0.0.x
+104 verbose lock open@0.0.x /home/action/.npm/f647dcd5-open-0-0-x.lock
+105 verbose cache add [ 'prompt@0.2.x', null ]
+106 verbose cache add name=undefined spec="prompt@0.2.x" args=["prompt@0.2.x",null]
+107 verbose parsed url { protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: 'prompt@0.2.x',
+107 verbose parsed url   path: 'prompt@0.2.x',
+107 verbose parsed url   href: 'prompt@0.2.x' }
+108 verbose cache add name="prompt" spec="0.2.x" args=["prompt","0.2.x"]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: '0.2.x',
+109 verbose parsed url   path: '0.2.x',
+109 verbose parsed url   href: '0.2.x' }
+110 verbose addNamed [ 'prompt', '0.2.x' ]
+111 verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+112 silly lockFile c16d6607-prompt-0-2-x prompt@0.2.x
+113 verbose lock prompt@0.2.x /home/action/.npm/c16d6607-prompt-0-2-x.lock
+114 verbose cache add [ 'optimist@0.6.x', null ]
+115 verbose cache add name=undefined spec="optimist@0.6.x" args=["optimist@0.6.x",null]
+116 verbose parsed url { protocol: null,
+116 verbose parsed url   slashes: null,
+116 verbose parsed url   auth: null,
+116 verbose parsed url   host: null,
+116 verbose parsed url   port: null,
+116 verbose parsed url   hostname: null,
+116 verbose parsed url   hash: null,
+116 verbose parsed url   search: null,
+116 verbose parsed url   query: null,
+116 verbose parsed url   pathname: 'optimist@0.6.x',
+116 verbose parsed url   path: 'optimist@0.6.x',
+116 verbose parsed url   href: 'optimist@0.6.x' }
+117 verbose cache add name="optimist" spec="0.6.x" args=["optimist","0.6.x"]
+118 verbose parsed url { protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: '0.6.x',
+118 verbose parsed url   path: '0.6.x',
+118 verbose parsed url   href: '0.6.x' }
+119 verbose addNamed [ 'optimist', '0.6.x' ]
+120 verbose addNamed [ null, '>=0.6.0- <0.7.0-' ]
+121 silly lockFile 153c05cb-optimist-0-6-x optimist@0.6.x
+122 verbose lock optimist@0.6.x /home/action/.npm/153c05cb-optimist-0-6-x.lock
+123 verbose cache add [ 'request@2.51.x', null ]
+124 verbose cache add name=undefined spec="request@2.51.x" args=["request@2.51.x",null]
+125 verbose parsed url { protocol: null,
+125 verbose parsed url   slashes: null,
+125 verbose parsed url   auth: null,
+125 verbose parsed url   host: null,
+125 verbose parsed url   port: null,
+125 verbose parsed url   hostname: null,
+125 verbose parsed url   hash: null,
+125 verbose parsed url   search: null,
+125 verbose parsed url   query: null,
+125 verbose parsed url   pathname: 'request@2.51.x',
+125 verbose parsed url   path: 'request@2.51.x',
+125 verbose parsed url   href: 'request@2.51.x' }
+126 verbose cache add name="request" spec="2.51.x" args=["request","2.51.x"]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: '2.51.x',
+127 verbose parsed url   path: '2.51.x',
+127 verbose parsed url   href: '2.51.x' }
+128 verbose addNamed [ 'request', '2.51.x' ]
+129 verbose addNamed [ null, '>=2.51.0- <2.52.0-' ]
+130 silly lockFile b6f82c55-request-2-51-x request@2.51.x
+131 verbose lock request@2.51.x /home/action/.npm/b6f82c55-request-2-51-x.lock
+132 verbose cache add [ 'tar@1.0.x', null ]
+133 verbose cache add name=undefined spec="tar@1.0.x" args=["tar@1.0.x",null]
+134 verbose parsed url { protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: 'tar@1.0.x',
+134 verbose parsed url   path: 'tar@1.0.x',
+134 verbose parsed url   href: 'tar@1.0.x' }
+135 verbose cache add name="tar" spec="1.0.x" args=["tar","1.0.x"]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: '1.0.x',
+136 verbose parsed url   path: '1.0.x',
+136 verbose parsed url   href: '1.0.x' }
+137 verbose addNamed [ 'tar', '1.0.x' ]
+138 verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+139 silly lockFile 0cc96b9e-tar-1-0-x tar@1.0.x
+140 verbose lock tar@1.0.x /home/action/.npm/0cc96b9e-tar-1-0-x.lock
+141 verbose cache add [ 'when@3.6.x', null ]
+142 verbose cache add name=undefined spec="when@3.6.x" args=["when@3.6.x",null]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: 'when@3.6.x',
+143 verbose parsed url   path: 'when@3.6.x',
+143 verbose parsed url   href: 'when@3.6.x' }
+144 verbose cache add name="when" spec="3.6.x" args=["when","3.6.x"]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: '3.6.x',
+145 verbose parsed url   path: '3.6.x',
+145 verbose parsed url   href: '3.6.x' }
+146 verbose addNamed [ 'when', '3.6.x' ]
+147 verbose addNamed [ null, '>=3.6.0- <3.7.0-' ]
+148 silly lockFile a8c135b1-when-3-6-x when@3.6.x
+149 verbose lock when@3.6.x /home/action/.npm/a8c135b1-when-3-6-x.lock
+150 verbose cache add [ 'chalk@0.5.x', null ]
+151 verbose cache add name=undefined spec="chalk@0.5.x" args=["chalk@0.5.x",null]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: 'chalk@0.5.x',
+152 verbose parsed url   path: 'chalk@0.5.x',
+152 verbose parsed url   href: 'chalk@0.5.x' }
+153 verbose cache add name="chalk" spec="0.5.x" args=["chalk","0.5.x"]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: '0.5.x',
+154 verbose parsed url   path: '0.5.x',
+154 verbose parsed url   href: '0.5.x' }
+155 verbose addNamed [ 'chalk', '0.5.x' ]
+156 verbose addNamed [ null, '>=0.5.0- <0.6.0-' ]
+157 silly lockFile 68eb7a0a-chalk-0-5-x chalk@0.5.x
+158 verbose lock chalk@0.5.x /home/action/.npm/68eb7a0a-chalk-0-5-x.lock
+159 verbose cache add [ 'firebase@2.1.x', null ]
+160 verbose cache add name=undefined spec="firebase@2.1.x" args=["firebase@2.1.x",null]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: 'firebase@2.1.x',
+161 verbose parsed url   path: 'firebase@2.1.x',
+161 verbose parsed url   href: 'firebase@2.1.x' }
+162 verbose cache add name="firebase" spec="2.1.x" args=["firebase","2.1.x"]
+163 verbose parsed url { protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: '2.1.x',
+163 verbose parsed url   path: '2.1.x',
+163 verbose parsed url   href: '2.1.x' }
+164 verbose addNamed [ 'firebase', '2.1.x' ]
+165 verbose addNamed [ null, '>=2.1.0- <2.2.0-' ]
+166 silly lockFile 3f891f70-firebase-2-1-x firebase@2.1.x
+167 verbose lock firebase@2.1.x /home/action/.npm/3f891f70-firebase-2-1-x.lock
+168 silly addNameRange { name: 'progress', range: '>=1.1.0- <1.2.0-', hasData: false }
+169 silly addNameRange { name: 'open', range: '>=0.0.0- <0.1.0-', hasData: false }
+170 silly addNameRange { name: 'prompt', range: '>=0.2.0- <0.3.0-', hasData: false }
+171 silly addNameRange { name: 'optimist', range: '>=0.6.0- <0.7.0-', hasData: false }
+172 silly addNameRange { name: 'request', range: '>=2.51.0- <2.52.0-', hasData: false }
+173 silly addNameRange { name: 'tar', range: '>=1.0.0- <1.1.0-', hasData: false }
+174 silly addNameRange { name: 'when', range: '>=3.6.0- <3.7.0-', hasData: false }
+175 silly addNameRange { name: 'chalk', range: '>=0.5.0- <0.6.0-', hasData: false }
+176 silly addNameRange { name: 'firebase', range: '>=2.1.0- <2.2.0-', hasData: false }
+177 verbose url raw progress
+178 verbose url resolving [ 'https://registry.npmjs.org/', './progress' ]
+179 verbose url resolved https://registry.npmjs.org/progress
+180 info trying registry request attempt 1 at 23:15:37
+181 verbose etag "E8ATCH8F4DYBROID5J1XU9ZZ1"
+182 http GET https://registry.npmjs.org/progress
+183 verbose url raw open
+184 verbose url resolving [ 'https://registry.npmjs.org/', './open' ]
+185 verbose url resolved https://registry.npmjs.org/open
+186 info trying registry request attempt 1 at 23:15:37
+187 verbose etag "7E7UG9T96KCSM03OQ14UBYL6J"
+188 http GET https://registry.npmjs.org/open
+189 verbose url raw prompt
+190 verbose url resolving [ 'https://registry.npmjs.org/', './prompt' ]
+191 verbose url resolved https://registry.npmjs.org/prompt
+192 info trying registry request attempt 1 at 23:15:37
+193 verbose etag "3TS89ZWX6OI9JJDR6GZRK70RR"
+194 http GET https://registry.npmjs.org/prompt
+195 verbose url raw optimist
+196 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+197 verbose url resolved https://registry.npmjs.org/optimist
+198 info trying registry request attempt 1 at 23:15:37
+199 verbose etag "3V5Q1FVXCIHNB0OVFO0QGGQ7U"
+200 http GET https://registry.npmjs.org/optimist
+201 verbose url raw request
+202 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+203 verbose url resolved https://registry.npmjs.org/request
+204 info trying registry request attempt 1 at 23:15:37
+205 verbose etag "MN4ILLJ4P03HP8ZANJRARBP7"
+206 http GET https://registry.npmjs.org/request
+207 verbose url raw tar
+208 verbose url resolving [ 'https://registry.npmjs.org/', './tar' ]
+209 verbose url resolved https://registry.npmjs.org/tar
+210 info trying registry request attempt 1 at 23:15:37
+211 verbose etag "P2EEA1JUK2XG7AGU8N5WQAJJ"
+212 http GET https://registry.npmjs.org/tar
+213 verbose url raw when
+214 verbose url resolving [ 'https://registry.npmjs.org/', './when' ]
+215 verbose url resolved https://registry.npmjs.org/when
+216 info trying registry request attempt 1 at 23:15:37
+217 verbose etag "7W3GYY8OFONEAMHAFGJGTH5TW"
+218 http GET https://registry.npmjs.org/when
+219 verbose url raw chalk
+220 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+221 verbose url resolved https://registry.npmjs.org/chalk
+222 info trying registry request attempt 1 at 23:15:37
+223 verbose etag "52QVYE1YWMMWF1VNJ4QGVHOGQ"
+224 http GET https://registry.npmjs.org/chalk
+225 verbose url raw firebase
+226 verbose url resolving [ 'https://registry.npmjs.org/', './firebase' ]
+227 verbose url resolved https://registry.npmjs.org/firebase
+228 info trying registry request attempt 1 at 23:15:37
+229 verbose etag "2B5PWR45QD4NN48Q5R6TJI77E"
+230 http GET https://registry.npmjs.org/firebase
+231 http 304 https://registry.npmjs.org/fstream-ignore
+232 silly registry.get cb [ 304,
+232 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+232 silly registry.get     server: 'Apache',
+232 silly registry.get     via: '1.1 varnish',
+232 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+232 silly registry.get     'cache-control': 'max-age=60',
+232 silly registry.get     etag: '"CAHV03J2GXEXNP8NWCHN8X3J4"',
+232 silly registry.get     age: '2',
+232 silly registry.get     'x-served-by': 'cache-iad2139-IAD',
+232 silly registry.get     'x-cache': 'HIT',
+232 silly registry.get     'x-cache-hits': '1',
+232 silly registry.get     'x-timer': 'S1425251737.529217,VS0,VE0',
+232 silly registry.get     vary: 'Accept',
+232 silly registry.get     'content-length': '0',
+232 silly registry.get     'keep-alive': 'timeout=10, max=50',
+232 silly registry.get     connection: 'Keep-Alive' } ]
+233 verbose etag fstream-ignore from cache
+234 http 304 https://registry.npmjs.org/progress
+235 silly registry.get cb [ 304,
+235 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+235 silly registry.get     server: 'Apache',
+235 silly registry.get     via: '1.1 varnish',
+235 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+235 silly registry.get     'cache-control': 'max-age=60',
+235 silly registry.get     etag: '"E8ATCH8F4DYBROID5J1XU9ZZ1"',
+235 silly registry.get     age: '56',
+235 silly registry.get     'x-served-by': 'cache-iad2126-IAD',
+235 silly registry.get     'x-cache': 'HIT',
+235 silly registry.get     'x-cache-hits': '1',
+235 silly registry.get     'x-timer': 'S1425251737.539050,VS0,VE0',
+235 silly registry.get     vary: 'Accept',
+235 silly registry.get     'content-length': '0',
+235 silly registry.get     'keep-alive': 'timeout=10, max=50',
+235 silly registry.get     connection: 'Keep-Alive' } ]
+236 verbose etag progress from cache
+237 http 304 https://registry.npmjs.org/open
+238 silly registry.get cb [ 304,
+238 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+238 silly registry.get     server: 'Apache',
+238 silly registry.get     via: '1.1 varnish',
+238 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+238 silly registry.get     'cache-control': 'max-age=60',
+238 silly registry.get     etag: '"7E7UG9T96KCSM03OQ14UBYL6J"',
+238 silly registry.get     age: '24',
+238 silly registry.get     'x-served-by': 'cache-iad2139-IAD',
+238 silly registry.get     'x-cache': 'HIT',
+238 silly registry.get     'x-cache-hits': '1',
+238 silly registry.get     'x-timer': 'S1425251737.540657,VS0,VE0',
+238 silly registry.get     vary: 'Accept',
+238 silly registry.get     'content-length': '0',
+238 silly registry.get     'keep-alive': 'timeout=10, max=50',
+238 silly registry.get     connection: 'Keep-Alive' } ]
+239 verbose etag open from cache
+240 http 304 https://registry.npmjs.org/request
+241 silly registry.get cb [ 304,
+241 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+241 silly registry.get     server: 'Apache',
+241 silly registry.get     via: '1.1 varnish',
+241 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+241 silly registry.get     'cache-control': 'max-age=60',
+241 silly registry.get     etag: '"MN4ILLJ4P03HP8ZANJRARBP7"',
+241 silly registry.get     age: '42',
+241 silly registry.get     'x-served-by': 'cache-iad2139-IAD',
+241 silly registry.get     'x-cache': 'HIT',
+241 silly registry.get     'x-cache-hits': '1',
+241 silly registry.get     'x-timer': 'S1425251737.552008,VS0,VE1',
+241 silly registry.get     vary: 'Accept',
+241 silly registry.get     'content-length': '0',
+241 silly registry.get     'keep-alive': 'timeout=10, max=49',
+241 silly registry.get     connection: 'Keep-Alive' } ]
+242 verbose etag request from cache
+243 http 304 https://registry.npmjs.org/optimist
+244 silly registry.get cb [ 304,
+244 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+244 silly registry.get     server: 'Apache',
+244 silly registry.get     via: '1.1 varnish',
+244 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+244 silly registry.get     'cache-control': 'max-age=60',
+244 silly registry.get     etag: '"3V5Q1FVXCIHNB0OVFO0QGGQ7U"',
+244 silly registry.get     age: '42',
+244 silly registry.get     'x-served-by': 'cache-iad2127-IAD',
+244 silly registry.get     'x-cache': 'HIT',
+244 silly registry.get     'x-cache-hits': '1',
+244 silly registry.get     'x-timer': 'S1425251737.557973,VS0,VE0',
+244 silly registry.get     vary: 'Accept',
+244 silly registry.get     'content-length': '0',
+244 silly registry.get     'keep-alive': 'timeout=10, max=50',
+244 silly registry.get     connection: 'Keep-Alive' } ]
+245 verbose etag optimist from cache
+246 http 304 https://registry.npmjs.org/prompt
+247 silly registry.get cb [ 304,
+247 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+247 silly registry.get     server: 'Apache',
+247 silly registry.get     via: '1.1 varnish',
+247 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+247 silly registry.get     'cache-control': 'max-age=60',
+247 silly registry.get     etag: '"3TS89ZWX6OI9JJDR6GZRK70RR"',
+247 silly registry.get     age: '34',
+247 silly registry.get     'x-served-by': 'cache-iad2125-IAD',
+247 silly registry.get     'x-cache': 'HIT',
+247 silly registry.get     'x-cache-hits': '1',
+247 silly registry.get     'x-timer': 'S1425251737.563386,VS0,VE0',
+247 silly registry.get     vary: 'Accept',
+247 silly registry.get     'content-length': '0',
+247 silly registry.get     'keep-alive': 'timeout=10, max=50',
+247 silly registry.get     connection: 'Keep-Alive' } ]
+248 verbose etag prompt from cache
+249 http 200 https://registry.npmjs.org/chalk
+250 silly registry.get cb [ 200,
+250 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+250 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+250 silly registry.get     etag: '"E1AFXEGT6SN0FUD05XQ11AAT5"',
+250 silly registry.get     'content-type': 'application/json',
+250 silly registry.get     'cache-control': 'max-age=60',
+250 silly registry.get     'content-length': '20356',
+250 silly registry.get     'accept-ranges': 'bytes',
+250 silly registry.get     via: '1.1 varnish',
+250 silly registry.get     age: '51',
+250 silly registry.get     'x-served-by': 'cache-iad2139-IAD',
+250 silly registry.get     'x-cache': 'HIT',
+250 silly registry.get     'x-cache-hits': '3',
+250 silly registry.get     'x-timer': 'S1425251737.564257,VS0,VE0',
+250 silly registry.get     vary: 'Accept',
+250 silly registry.get     'keep-alive': 'timeout=10, max=48',
+250 silly registry.get     connection: 'Keep-Alive' } ]
+251 http 304 https://registry.npmjs.org/when
+252 silly registry.get cb [ 304,
+252 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+252 silly registry.get     server: 'Apache',
+252 silly registry.get     via: '1.1 varnish',
+252 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+252 silly registry.get     'cache-control': 'max-age=60',
+252 silly registry.get     etag: '"7W3GYY8OFONEAMHAFGJGTH5TW"',
+252 silly registry.get     age: '0',
+252 silly registry.get     'x-served-by': 'cache-iad2139-IAD',
+252 silly registry.get     'x-cache': 'HIT',
+252 silly registry.get     'x-cache-hits': '1',
+252 silly registry.get     'x-timer': 'S1425251737.557995,VS0,VE8',
+252 silly registry.get     vary: 'Accept',
+252 silly registry.get     'content-length': '0',
+252 silly registry.get     'keep-alive': 'timeout=10, max=49',
+252 silly registry.get     connection: 'Keep-Alive' } ]
+253 verbose etag when from cache
+254 silly addNameRange number 2 { name: 'fstream-ignore',
+254 silly addNameRange   range: '>=1.0.0- <1.1.0-',
+254 silly addNameRange   hasData: true }
+255 silly addNameRange versions [ 'fstream-ignore',
+255 silly addNameRange   [ '0.0.1',
+255 silly addNameRange     '0.0.2',
+255 silly addNameRange     '0.0.3',
+255 silly addNameRange     '0.0.4',
+255 silly addNameRange     '0.0.5',
+255 silly addNameRange     '0.0.6',
+255 silly addNameRange     '0.0.7',
+255 silly addNameRange     '0.0.8',
+255 silly addNameRange     '0.0.9',
+255 silly addNameRange     '0.0.10',
+255 silly addNameRange     '1.0.0',
+255 silly addNameRange     '1.0.1',
+255 silly addNameRange     '1.0.2' ] ]
+256 verbose addNamed [ 'fstream-ignore', '1.0.2' ]
+257 verbose addNamed [ '1.0.2', '1.0.2' ]
+258 silly lockFile 58191f1e-fstream-ignore-1-0-2 fstream-ignore@1.0.2
+259 verbose lock fstream-ignore@1.0.2 /home/action/.npm/58191f1e-fstream-ignore-1-0-2.lock
+260 silly addNameRange number 2 { name: 'open', range: '>=0.0.0- <0.1.0-', hasData: true }
+261 silly addNameRange versions [ 'open', [ '0.0.0', '0.0.2', '0.0.3', '0.0.4', '0.0.5' ] ]
+262 verbose addNamed [ 'open', '0.0.5' ]
+263 verbose addNamed [ '0.0.5', '0.0.5' ]
+264 silly lockFile c6d41519-open-0-0-5 open@0.0.5
+265 verbose lock open@0.0.5 /home/action/.npm/c6d41519-open-0-0-5.lock
+266 silly addNameRange number 2 { name: 'progress', range: '>=1.1.0- <1.2.0-', hasData: true }
+267 silly addNameRange versions [ 'progress',
+267 silly addNameRange   [ '0.0.1',
+267 silly addNameRange     '0.0.2',
+267 silly addNameRange     '0.0.3',
+267 silly addNameRange     '0.0.4',
+267 silly addNameRange     '0.0.5',
+267 silly addNameRange     '0.1.0',
+267 silly addNameRange     '1.0.0',
+267 silly addNameRange     '1.0.1',
+267 silly addNameRange     '1.1.0',
+267 silly addNameRange     '1.1.2',
+267 silly addNameRange     '1.1.3',
+267 silly addNameRange     '1.1.4',
+267 silly addNameRange     '1.1.5',
+267 silly addNameRange     '1.1.6',
+267 silly addNameRange     '1.1.7',
+267 silly addNameRange     '1.1.8' ] ]
+268 verbose addNamed [ 'progress', '1.1.8' ]
+269 verbose addNamed [ '1.1.8', '1.1.8' ]
+270 silly lockFile caa8d10f-progress-1-1-8 progress@1.1.8
+271 verbose lock progress@1.1.8 /home/action/.npm/caa8d10f-progress-1-1-8.lock
+272 verbose read json /home/action/.npm/fstream-ignore/1.0.2/package/package.json
+273 verbose read json /home/action/.npm/open/0.0.5/package/package.json
+274 verbose read json /home/action/.npm/progress/1.1.8/package/package.json
+275 silly addNameRange number 2 { name: 'request', range: '>=2.51.0- <2.52.0-', hasData: true }
+276 silly addNameRange versions [ 'request',
+276 silly addNameRange   [ '0.10.0',
+276 silly addNameRange     '0.8.3',
+276 silly addNameRange     '0.9.0',
+276 silly addNameRange     '0.9.1',
+276 silly addNameRange     '0.9.5',
+276 silly addNameRange     '1.0.0',
+276 silly addNameRange     '1.1.0',
+276 silly addNameRange     '1.1.1',
+276 silly addNameRange     '1.2.0',
+276 silly addNameRange     '1.9.0',
+276 silly addNameRange     '1.9.1',
+276 silly addNameRange     '1.9.2',
+276 silly addNameRange     '1.9.3',
+276 silly addNameRange     '1.9.5',
+276 silly addNameRange     '1.9.7',
+276 silly addNameRange     '1.9.8',
+276 silly addNameRange     '1.9.9',
+276 silly addNameRange     '2.0.0',
+276 silly addNameRange     '2.0.1',
+276 silly addNameRange     '2.0.2',
+276 silly addNameRange     '2.0.3',
+276 silly addNameRange     '2.0.4',
+276 silly addNameRange     '2.0.5',
+276 silly addNameRange     '2.1.0',
+276 silly addNameRange     '2.1.1',
+276 silly addNameRange     '2.2.0',
+276 silly addNameRange     '2.2.5',
+276 silly addNameRange     '2.2.6',
+276 silly addNameRange     '2.2.9',
+276 silly addNameRange     '2.9.0',
+276 silly addNameRange     '2.9.1',
+276 silly addNameRange     '2.9.2',
+276 silly addNameRange     '2.9.3',
+276 silly addNameRange     '2.9.100',
+276 silly addNameRange     '2.9.150',
+276 silly addNameRange     '2.9.151',
+276 silly addNameRange     '2.9.152',
+276 silly addNameRange     '2.9.153',
+276 silly addNameRange     '2.9.200',
+276 silly addNameRange     '2.9.201',
+276 silly addNameRange     '2.9.202',
+276 silly addNameRange     '2.9.203',
+276 silly addNameRange     '2.10.0',
+276 silly addNameRange     '2.11.0',
+276 silly addNameRange     '2.11.1',
+276 silly addNameRange     '2.11.2',
+276 silly addNameRange     '2.11.3',
+276 silly addNameRange     '2.11.4',
+276 silly addNameRange     '2.12.0',
+276 silly addNameRange     '2.14.0',
+276 silly addNameRange     '2.16.0',
+276 silly addNameRange     '2.16.2',
+276 silly addNameRange     '2.16.4',
+276 silly addNameRange     '2.16.6',
+276 silly addNameRange     '2.18.0',
+276 silly addNameRange     '2.19.0',
+276 silly addNameRange     '2.20.0',
+276 silly addNameRange     '2.21.0',
+276 silly addNameRange     '2.22.0',
+276 silly addNameRange     '2.23.0',
+276 silly addNameRange     '2.24.0',
+276 silly addNameRange     '2.25.0',
+276 silly addNameRange     '2.26.0',
+276 silly addNameRange     '2.27.0',
+276 silly addNameRange     '2.28.0',
+276 silly addNameRange     '2.29.0',
+276 silly addNameRange     '2.30.0',
+276 silly addNameRange     '2.31.0',
+276 silly addNameRange     '2.32.0',
+276 silly addNameRange     '2.33.0',
+276 silly addNameRange     '2.34.0',
+276 silly addNameRange     '2.35.0',
+276 silly addNameRange     '2.36.0',
+276 silly addNameRange     '2.37.0',
+276 silly addNameRange     '2.38.0',
+276 silly addNameRange     '2.39.0',
+276 silly addNameRange     '2.40.0',
+276 silly addNameRange     '2.41.0',
+276 silly addNameRange     '2.42.0',
+276 silly addNameRange     '2.43.0',
+276 silly addNameRange     '2.44.0',
+276 silly addNameRange     '2.45.0',
+276 silly addNameRange     '2.46.0',
+276 silly addNameRange     '2.47.0',
+276 silly addNameRange     '2.48.0',
+276 silly addNameRange     '2.49.0',
+276 silly addNameRange     '2.50.0',
+276 silly addNameRange     '2.51.0',
+276 silly addNameRange     '2.52.0',
+276 silly addNameRange     '2.53.0' ] ]
+277 verbose addNamed [ 'request', '2.51.0' ]
+278 verbose addNamed [ '2.51.0', '2.51.0' ]
+279 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+280 verbose lock request@2.51.0 /home/action/.npm/85707acc-request-2-51-0.lock
+281 silly addNameRange number 2 { name: 'chalk', range: '>=0.5.0- <0.6.0-', hasData: true }
+282 silly addNameRange versions [ 'chalk',
+282 silly addNameRange   [ '0.1.0',
+282 silly addNameRange     '0.1.1',
+282 silly addNameRange     '0.2.0',
+282 silly addNameRange     '0.2.1',
+282 silly addNameRange     '0.3.0',
+282 silly addNameRange     '0.4.0',
+282 silly addNameRange     '0.5.0',
+282 silly addNameRange     '0.5.1',
+282 silly addNameRange     '1.0.0' ] ]
+283 verbose addNamed [ 'chalk', '0.5.1' ]
+284 verbose addNamed [ '0.5.1', '0.5.1' ]
+285 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+286 verbose lock chalk@0.5.1 /home/action/.npm/c28973bb-chalk-0-5-1.lock
+287 verbose read json /home/action/.npm/request/2.51.0/package/package.json
+288 silly addNameRange number 2 { name: 'when', range: '>=3.6.0- <3.7.0-', hasData: true }
+289 silly addNameRange versions [ 'when',
+289 silly addNameRange   [ '1.2.0',
+289 silly addNameRange     '1.3.0',
+289 silly addNameRange     '1.4.0',
+289 silly addNameRange     '1.4.1',
+289 silly addNameRange     '1.4.2',
+289 silly addNameRange     '1.4.3',
+289 silly addNameRange     '1.4.4',
+289 silly addNameRange     '1.5.0',
+289 silly addNameRange     '1.5.1',
+289 silly addNameRange     '1.5.2',
+289 silly addNameRange     '1.6.0',
+289 silly addNameRange     '1.6.1',
+289 silly addNameRange     '1.7.0',
+289 silly addNameRange     '1.7.1',
+289 silly addNameRange     '1.8.0',
+289 silly addNameRange     '1.8.1',
+289 silly addNameRange     '2.0.0',
+289 silly addNameRange     '2.0.1',
+289 silly addNameRange     '2.1.0',
+289 silly addNameRange     '2.1.1',
+289 silly addNameRange     '2.2.0',
+289 silly addNameRange     '2.2.1',
+289 silly addNameRange     '2.3.0',
+289 silly addNameRange     '2.4.0',
+289 silly addNameRange     '2.5.0',
+289 silly addNameRange     '2.5.1',
+289 silly addNameRange     '2.6.0',
+289 silly addNameRange     '2.7.0',
+289 silly addNameRange     '2.7.1',
+289 silly addNameRange     '2.8.0',
+289 silly addNameRange     '3.0.0',
+289 silly addNameRange     '3.0.1',
+289 silly addNameRange     '3.1.0',
+289 silly addNameRange     '3.2.0',
+289 silly addNameRange     '3.2.1',
+289 silly addNameRange     '3.2.2',
+289 silly addNameRange     '3.2.3',
+289 silly addNameRange     '3.3.0',
+289 silly addNameRange     '3.3.1',
+289 silly addNameRange     '3.4.0',
+289 silly addNameRange     '3.4.1',
+289 silly addNameRange     '3.4.2',
+289 silly addNameRange     '3.4.3',
+289 silly addNameRange     '3.4.4',
+289 silly addNameRange     '3.4.5',
+289 silly addNameRange     '3.4.6',
+289 silly addNameRange     '3.5.0',
+289 silly addNameRange     '3.5.1',
+289 silly addNameRange     '3.5.2',
+289 silly addNameRange     '3.6.0',
+289 silly addNameRange     '3.6.1',
+289 silly addNameRange     '3.6.2',
+289 silly addNameRange     '3.6.3',
+289 silly addNameRange     '3.6.4',
+289 silly addNameRange     '3.7.0',
+289 silly addNameRange     '3.7.1',
+289 silly addNameRange     '3.7.2' ] ]
+290 verbose addNamed [ 'when', '3.6.4' ]
+291 verbose addNamed [ '3.6.4', '3.6.4' ]
+292 silly lockFile 7eb182cc-when-3-6-4 when@3.6.4
+293 verbose lock when@3.6.4 /home/action/.npm/7eb182cc-when-3-6-4.lock
+294 silly addNameRange number 2 { name: 'prompt', range: '>=0.2.0- <0.3.0-', hasData: true }
+295 silly addNameRange versions [ 'prompt',
+295 silly addNameRange   [ '0.0.1',
+295 silly addNameRange     '0.0.2',
+295 silly addNameRange     '0.0.3',
+295 silly addNameRange     '0.0.4',
+295 silly addNameRange     '0.1.0',
+295 silly addNameRange     '0.1.1',
+295 silly addNameRange     '0.1.2',
+295 silly addNameRange     '0.1.3',
+295 silly addNameRange     '0.1.4',
+295 silly addNameRange     '0.1.5',
+295 silly addNameRange     '0.1.7',
+295 silly addNameRange     '0.1.8',
+295 silly addNameRange     '0.1.9',
+295 silly addNameRange     '0.1.10',
+295 silly addNameRange     '0.1.11',
+295 silly addNameRange     '0.1.12',
+295 silly addNameRange     '0.2.0',
+295 silly addNameRange     '0.2.1',
+295 silly addNameRange     '0.2.2',
+295 silly addNameRange     '0.2.3',
+295 silly addNameRange     '0.2.4',
+295 silly addNameRange     '0.2.5',
+295 silly addNameRange     '0.2.6',
+295 silly addNameRange     '0.2.7',
+295 silly addNameRange     '0.2.8',
+295 silly addNameRange     '0.2.9',
+295 silly addNameRange     '0.2.10',
+295 silly addNameRange     '0.2.11',
+295 silly addNameRange     '0.2.12',
+295 silly addNameRange     '0.2.13',
+295 silly addNameRange     '0.2.14' ] ]
+296 verbose addNamed [ 'prompt', '0.2.14' ]
+297 verbose addNamed [ '0.2.14', '0.2.14' ]
+298 silly lockFile e336d148-prompt-0-2-14 prompt@0.2.14
+299 verbose lock prompt@0.2.14 /home/action/.npm/e336d148-prompt-0-2-14.lock
+300 silly addNameRange number 2 { name: 'optimist', range: '>=0.6.0- <0.7.0-', hasData: true }
+301 silly addNameRange versions [ 'optimist',
+301 silly addNameRange   [ '0.0.1',
+301 silly addNameRange     '0.0.2',
+301 silly addNameRange     '0.0.4',
+301 silly addNameRange     '0.0.5',
+301 silly addNameRange     '0.0.6',
+301 silly addNameRange     '0.0.7',
+301 silly addNameRange     '0.1.0',
+301 silly addNameRange     '0.1.1',
+301 silly addNameRange     '0.1.2',
+301 silly addNameRange     '0.1.3',
+301 silly addNameRange     '0.1.4',
+301 silly addNameRange     '0.1.5',
+301 silly addNameRange     '0.1.6',
+301 silly addNameRange     '0.1.7',
+301 silly addNameRange     '0.1.8',
+301 silly addNameRange     '0.1.9',
+301 silly addNameRange     '0.0.3',
+301 silly addNameRange     '0.2.0',
+301 silly addNameRange     '0.2.1',
+301 silly addNameRange     '0.2.2',
+301 silly addNameRange     '0.2.3',
+301 silly addNameRange     '0.2.4',
+301 silly addNameRange     '0.2.5',
+301 silly addNameRange     '0.2.6',
+301 silly addNameRange     '0.2.7',
+301 silly addNameRange     '0.2.8',
+301 silly addNameRange     '0.3.0',
+301 silly addNameRange     '0.3.1',
+301 silly addNameRange     '0.3.3',
+301 silly addNameRange     '0.3.4',
+301 silly addNameRange     '0.3.5',
+301 silly addNameRange     '0.3.6',
+301 silly addNameRange     '0.3.7',
+301 silly addNameRange     '0.4.0',
+301 silly addNameRange     '0.5.0',
+301 silly addNameRange     '0.5.1',
+301 silly addNameRange     '0.5.2',
+301 silly addNameRange     '0.6.0',
+301 silly addNameRange     '0.6.1' ] ]
+302 verbose addNamed [ 'optimist', '0.6.1' ]
+303 verbose addNamed [ '0.6.1', '0.6.1' ]
+304 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+305 verbose lock optimist@0.6.1 /home/action/.npm/0fc74eb8-optimist-0-6-1.lock
+306 verbose read json /home/action/.npm/chalk/0.5.1/package/package.json
+307 verbose read json /home/action/.npm/when/3.6.4/package/package.json
+308 verbose read json /home/action/.npm/prompt/0.2.14/package/package.json
+309 verbose read json /home/action/.npm/optimist/0.6.1/package/package.json
+310 silly lockFile 58191f1e-fstream-ignore-1-0-2 fstream-ignore@1.0.2
+311 silly lockFile 58191f1e-fstream-ignore-1-0-2 fstream-ignore@1.0.2
+312 silly lockFile c6d41519-open-0-0-5 open@0.0.5
+313 silly lockFile c6d41519-open-0-0-5 open@0.0.5
+314 silly lockFile caa8d10f-progress-1-1-8 progress@1.1.8
+315 silly lockFile caa8d10f-progress-1-1-8 progress@1.1.8
+316 silly lockFile af40a466-fstream-ignore-1-0-x fstream-ignore@1.0.x
+317 silly lockFile af40a466-fstream-ignore-1-0-x fstream-ignore@1.0.x
+318 silly lockFile f647dcd5-open-0-0-x open@0.0.x
+319 silly lockFile f647dcd5-open-0-0-x open@0.0.x
+320 silly lockFile 83fe3c06-progress-1-1-x progress@1.1.x
+321 silly lockFile 83fe3c06-progress-1-1-x progress@1.1.x
+322 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+323 silly lockFile 85707acc-request-2-51-0 request@2.51.0
+324 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+325 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+326 silly lockFile 7eb182cc-when-3-6-4 when@3.6.4
+327 silly lockFile 7eb182cc-when-3-6-4 when@3.6.4
+328 silly lockFile b6f82c55-request-2-51-x request@2.51.x
+329 silly lockFile b6f82c55-request-2-51-x request@2.51.x
+330 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+331 silly lockFile 0fc74eb8-optimist-0-6-1 optimist@0.6.1
+332 silly lockFile e336d148-prompt-0-2-14 prompt@0.2.14
+333 silly lockFile e336d148-prompt-0-2-14 prompt@0.2.14
+334 silly lockFile 68eb7a0a-chalk-0-5-x chalk@0.5.x
+335 silly lockFile 68eb7a0a-chalk-0-5-x chalk@0.5.x
+336 silly lockFile a8c135b1-when-3-6-x when@3.6.x
+337 silly lockFile a8c135b1-when-3-6-x when@3.6.x
+338 silly lockFile 153c05cb-optimist-0-6-x optimist@0.6.x
+339 silly lockFile 153c05cb-optimist-0-6-x optimist@0.6.x
+340 silly lockFile c16d6607-prompt-0-2-x prompt@0.2.x
+341 silly lockFile c16d6607-prompt-0-2-x prompt@0.2.x
+342 http 304 https://registry.npmjs.org/tar
+343 silly registry.get cb [ 304,
+343 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+343 silly registry.get     server: 'Apache',
+343 silly registry.get     via: '1.1 varnish',
+343 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+343 silly registry.get     'cache-control': 'max-age=60',
+343 silly registry.get     etag: '"P2EEA1JUK2XG7AGU8N5WQAJJ"',
+343 silly registry.get     age: '0',
+343 silly registry.get     'x-served-by': 'cache-iad2126-IAD',
+343 silly registry.get     'x-cache': 'HIT',
+343 silly registry.get     'x-cache-hits': '1',
+343 silly registry.get     'x-timer': 'S1425251737.553686,VS0,VE81',
+343 silly registry.get     vary: 'Accept',
+343 silly registry.get     'content-length': '0',
+343 silly registry.get     'keep-alive': 'timeout=10, max=49',
+343 silly registry.get     connection: 'Keep-Alive' } ]
+344 verbose etag tar from cache
+345 silly addNameRange number 2 { name: 'tar', range: '>=1.0.0- <1.1.0-', hasData: true }
+346 silly addNameRange versions [ 'tar',
+346 silly addNameRange   [ '0.0.1',
+346 silly addNameRange     '0.1.0',
+346 silly addNameRange     '0.1.2',
+346 silly addNameRange     '0.1.3',
+346 silly addNameRange     '0.1.4',
+346 silly addNameRange     '0.1.5',
+346 silly addNameRange     '0.1.6',
+346 silly addNameRange     '0.1.7',
+346 silly addNameRange     '0.1.8',
+346 silly addNameRange     '0.1.9',
+346 silly addNameRange     '0.1.10',
+346 silly addNameRange     '0.1.11',
+346 silly addNameRange     '0.1.12',
+346 silly addNameRange     '0.1.13',
+346 silly addNameRange     '0.1.14',
+346 silly addNameRange     '0.1.15',
+346 silly addNameRange     '0.1.16',
+346 silly addNameRange     '0.1.17',
+346 silly addNameRange     '0.1.18',
+346 silly addNameRange     '0.1.19',
+346 silly addNameRange     '0.1.20',
+346 silly addNameRange     '1.0.0',
+346 silly addNameRange     '1.0.1',
+346 silly addNameRange     '1.0.2',
+346 silly addNameRange     '1.0.3' ] ]
+347 verbose addNamed [ 'tar', '1.0.3' ]
+348 verbose addNamed [ '1.0.3', '1.0.3' ]
+349 silly lockFile 06b779d9-tar-1-0-3 tar@1.0.3
+350 verbose lock tar@1.0.3 /home/action/.npm/06b779d9-tar-1-0-3.lock
+351 verbose read json /home/action/.npm/tar/1.0.3/package/package.json
+352 silly lockFile 06b779d9-tar-1-0-3 tar@1.0.3
+353 silly lockFile 06b779d9-tar-1-0-3 tar@1.0.3
+354 silly lockFile 0cc96b9e-tar-1-0-x tar@1.0.x
+355 silly lockFile 0cc96b9e-tar-1-0-x tar@1.0.x
+356 http 304 https://registry.npmjs.org/firebase
+357 silly registry.get cb [ 304,
+357 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+357 silly registry.get     server: 'Apache',
+357 silly registry.get     via: '1.1 varnish',
+357 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+357 silly registry.get     'cache-control': 'max-age=60',
+357 silly registry.get     etag: '"2B5PWR45QD4NN48Q5R6TJI77E"',
+357 silly registry.get     age: '0',
+357 silly registry.get     'x-served-by': 'cache-iad2127-IAD',
+357 silly registry.get     'x-cache': 'MISS',
+357 silly registry.get     'x-cache-hits': '0',
+357 silly registry.get     'x-timer': 'S1425251737.566412,VS0,VE83',
+357 silly registry.get     vary: 'Accept',
+357 silly registry.get     'content-length': '0',
+357 silly registry.get     'keep-alive': 'timeout=10, max=49',
+357 silly registry.get     connection: 'Keep-Alive' } ]
+358 verbose etag firebase from cache
+359 silly addNameRange number 2 { name: 'firebase', range: '>=2.1.0- <2.2.0-', hasData: true }
+360 silly addNameRange versions [ 'firebase',
+360 silly addNameRange   [ '0.0.0',
+360 silly addNameRange     '0.5.0',
+360 silly addNameRange     '0.5.1',
+360 silly addNameRange     '0.5.2',
+360 silly addNameRange     '0.5.3',
+360 silly addNameRange     '0.5.4',
+360 silly addNameRange     '0.6.0',
+360 silly addNameRange     '0.6.1',
+360 silly addNameRange     '0.6.2',
+360 silly addNameRange     '0.6.3',
+360 silly addNameRange     '0.6.4',
+360 silly addNameRange     '0.6.5',
+360 silly addNameRange     '0.6.6',
+360 silly addNameRange     '0.6.7',
+360 silly addNameRange     '0.6.8',
+360 silly addNameRange     '0.6.9',
+360 silly addNameRange     '0.6.10',
+360 silly addNameRange     '0.6.11',
+360 silly addNameRange     '0.6.14',
+360 silly addNameRange     '0.6.15',
+360 silly addNameRange     '0.6.16',
+360 silly addNameRange     '0.6.17',
+360 silly addNameRange     '0.6.19',
+360 silly addNameRange     '0.6.21',
+360 silly addNameRange     '0.6.22',
+360 silly addNameRange     '1.0.1',
+360 silly addNameRange     '1.0.1-npm',
+360 silly addNameRange     '1.0.2',
+360 silly addNameRange     '1.0.3',
+360 silly addNameRange     '1.0.4',
+360 silly addNameRange     '1.0.5',
+360 silly addNameRange     '1.0.10',
+360 silly addNameRange     '1.0.10-2',
+360 silly addNameRange     '1.0.11',
+360 silly addNameRange     '1.0.12',
+360 silly addNameRange     '1.0.13',
+360 silly addNameRange     '1.0.14',
+360 silly addNameRange     '1.0.15',
+360 silly addNameRange     '1.0.15-2',
+360 silly addNameRange     '1.0.15-3',
+360 silly addNameRange     '1.0.17',
+360 silly addNameRange     '1.0.18',
+360 silly addNameRange     '1.0.19',
+360 silly addNameRange     '1.0.20',
+360 silly addNameRange     '1.0.21',
+360 silly addNameRange     '1.0.23',
+360 silly addNameRange     '1.0.24',
+360 silly addNameRange     '1.1.0',
+360 silly addNameRange     '1.1.1',
+360 silly addNameRange     '1.1.2',
+360 silly addNameRange     '1.2.0-beta.1-0',
+360 silly addNameRange     '1.2.0-beta.2',
+360 silly addNameRange     '1.1.3',
+360 silly addNameRange     '1.2.0-beta.3',
+360 silly addNameRange     '2.0.0',
+360 silly addNameRange     '2.0.1',
+360 silly addNameRange     '2.0.2',
+360 silly addNameRange     '2.0.3',
+360 silly addNameRange     '2.0.4',
+360 silly addNameRange     '2.0.5',
+360 silly addNameRange     '2.0.6',
+360 silly addNameRange     '2.1.0',
+360 silly addNameRange     '2.1.1',
+360 silly addNameRange     '2.1.2',
+360 silly addNameRange     '1.2.0',
+360 silly addNameRange     '2.2.0',
+360 silly addNameRange     '2.2.1' ] ]
+361 verbose addNamed [ 'firebase', '2.1.2' ]
+362 verbose addNamed [ '2.1.2', '2.1.2' ]
+363 silly lockFile f6aca0f7-firebase-2-1-2 firebase@2.1.2
+364 verbose lock firebase@2.1.2 /home/action/.npm/f6aca0f7-firebase-2-1-2.lock
+365 verbose read json /home/action/.npm/firebase/2.1.2/package/package.json
+366 silly lockFile f6aca0f7-firebase-2-1-2 firebase@2.1.2
+367 silly lockFile f6aca0f7-firebase-2-1-2 firebase@2.1.2
+368 silly lockFile 3f891f70-firebase-2-1-x firebase@2.1.x
+369 silly lockFile 3f891f70-firebase-2-1-x firebase@2.1.x
+370 silly resolved [ { author:
+370 silly resolved      { name: 'Isaac Z. Schlueter',
+370 silly resolved        email: 'i@izs.me',
+370 silly resolved        url: 'http://blog.izs.me/' },
+370 silly resolved     name: 'fstream-ignore',
+370 silly resolved     description: 'A thing for ignoring files based on globs',
+370 silly resolved     version: '1.0.2',
+370 silly resolved     repository:
+370 silly resolved      { type: 'git',
+370 silly resolved        url: 'git://github.com/isaacs/fstream-ignore.git' },
+370 silly resolved     main: 'ignore.js',
+370 silly resolved     scripts: { test: 'tap test/*.js' },
+370 silly resolved     dependencies: { fstream: '^1.0.0', inherits: '2', minimatch: '^2.0.1' },
+370 silly resolved     devDependencies: { tap: '', rimraf: '', mkdirp: '' },
+370 silly resolved     license: 'ISC',
+370 silly resolved     readme: '# fstream-ignore\n\nA fstream DirReader that filters out files that match globs in `.ignore`\nfiles throughout the tree, like how git ignores files based on a\n`.gitignore` file.\n\nHere\'s an example:\n\n```javascript\nvar Ignore = require("fstream-ignore")\nIgnore({ path: __dirname\n       , ignoreFiles: [".ignore", ".gitignore"]\n       })\n  .on("child", function (c) {\n    console.error(c.path.substr(c.root.path.length + 1))\n  })\n  .pipe(tar.Pack())\n  .pipe(fs.createWriteStream("foo.tar"))\n```\n\nThis will tar up the files in __dirname into `foo.tar`, ignoring\nanything matched by the globs in any .iginore or .gitignore file.\n',
+370 silly resolved     readmeFilename: 'README.md',
+370 silly resolved     bugs: { url: 'https://github.com/isaacs/fstream-ignore/issues' },
+370 silly resolved     _id: 'fstream-ignore@1.0.2',
+370 silly resolved     _from: 'fstream-ignore@1.0.x' },
+370 silly resolved   { name: 'open',
+370 silly resolved     version: '0.0.5',
+370 silly resolved     description: 'open a file or url in the user\'s preferred application',
+370 silly resolved     keywords: [ 'start', 'open', 'browser', 'editor', 'default' ],
+370 silly resolved     homepage: 'https://github.com/jjrdn/node-open',
+370 silly resolved     author: { name: 'J Jordan', email: 'jjrdn@styosis.com' },
+370 silly resolved     license: 'MIT',
+370 silly resolved     contributors: [ [Object] ],
+370 silly resolved     repository: { type: 'git', url: 'https://github.com/pwnall/node-open.git' },
+370 silly resolved     bugs: { url: 'https://github.com/pwnall/node-open/issues' },
+370 silly resolved     engines: { node: '>= 0.6.0' },
+370 silly resolved     dependencies: {},
+370 silly resolved     devDependencies: { mocha: '*' },
+370 silly resolved     optionalDependencies: {},
+370 silly resolved     main: 'lib/open.js',
+370 silly resolved     scripts: { test: 'node_modules/mocha/bin/mocha' },
+370 silly resolved     readme: '# open\n\nOpen a file or url in the user\'s preferred application.\n\n# Usage\n\n```javascript\nvar open = require("open");\nopen("http://www.google.com");\n```\n\n`open` taks an optional argument specifying the program to be used to open the\nfile or URL.\n\n```javascript\nopen("http://www.google.com", "firefox");\n```\n\n# Installation\n\n    npm install open\n\n# How it works\n\n- on `win32` uses `start`\n- on `darwin` uses `open`\n- otherwise uses the `xdg-open` script from [freedesktop.org](http://portland.freedesktop.org/xdg-utils-1.0/xdg-open.html)\n\n# Warning\n\nThe same care should be taken when calling open as if you were calling\n[child_process.exec](http://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback)\ndirectly. If it is an executable it will run in a new shell.\n',
+370 silly resolved     readmeFilename: 'README.md',
+370 silly resolved     _id: 'open@0.0.5',
+370 silly resolved     _from: 'open@0.0.x' },
+370 silly resolved   { name: 'progress',
+370 silly resolved     version: '1.1.8',
+370 silly resolved     description: 'Flexible ascii progress bar',
+370 silly resolved     keywords: [ 'cli', 'progress' ],
+370 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+370 silly resolved     contributors: [ [Object], [Object] ],
+370 silly resolved     dependencies: {},
+370 silly resolved     main: 'index',
+370 silly resolved     engines: { node: '>=0.4.0' },
+370 silly resolved     repository:
+370 silly resolved      { type: 'git',
+370 silly resolved        url: 'git://github.com/visionmedia/node-progress' },
+370 silly resolved     readme: 'Flexible ascii progress bar.\n\n## Installation\n\n```bash\n$ npm install progress\n```\n\n## Usage\n\nFirst we create a `ProgressBar`, giving it a format string\nas well as the `total`, telling the progress bar when it will\nbe considered complete. After that all we need to do is `tick()` appropriately.\n\n```javascript\nvar ProgressBar = require(\'progress\');\n\nvar bar = new ProgressBar(\':bar\', { total: 10 });\nvar timer = setInterval(function () {\n  bar.tick();\n  if (bar.complete) {\n    console.log(\'\\ncomplete\\n\');\n    clearInterval(timer);\n  }\n}, 100);\n```\n\n### Options\n\nThese are keys in the options object you can pass to the progress bar along with\n`total` as seen in the example above.\n\n- `total` total number of ticks to complete\n- `width` the displayed width of the progress bar defaulting to total\n- `stream` the output stream defaulting to stderr\n- `complete` completion character defaulting to "="\n- `incomplete` incomplete character defaulting to "-"\n- `clear` option to clear the bar on completion defaulting to false\n- `callback` optional function to call when the progress bar completes\n\n### Tokens\n\nThese are tokens you can use in the format of your progress bar.\n\n- `:bar` the progress bar itself\n- `:current` current tick number\n- `:total` total ticks\n- `:elapsed` time elapsed in seconds\n- `:percent` completion percentage\n- `:eta` estimated completion time in seconds\n\n## Examples\n\n### Download\n\nIn our download example each tick has a variable influence, so we pass the chunk\nlength which adjusts the progress bar appropriately relative to the total\nlength.\n\n```javascript\nvar ProgressBar = require(\'../\');\nvar https = require(\'https\');\n\nvar req = https.request({\n  host: \'download.github.com\',\n  port: 443,\n  path: \'/visionmedia-node-jscoverage-0d4608a.zip\'\n});\n\nreq.on(\'response\', function(res){\n  var len = parseInt(res.headers[\'content-length\'], 10);\n\n  console.log();\n  var bar = new ProgressBar(\'  downloading [:bar] :percent :etas\', {\n    complete: \'=\',\n    incomplete: \' \',\n    width: 20,\n    total: len\n  });\n\n  res.on(\'data\', function (chunk) {\n    bar.tick(chunk.length);\n  });\n\n  res.on(\'end\', function () {\n    console.log(\'\\n\');\n  });\n});\n\nreq.end();\n```\n\nThe above example result in a progress bar like the one below.\n\n```\ndownloading [=====             ] 29% 3.7s\n```\n\nYou can see more examples in the `examples` folder.\n\n## License\n\nMIT\n',
+370 silly resolved     readmeFilename: 'Readme.md',
+370 silly resolved     bugs: { url: 'https://github.com/visionmedia/node-progress/issues' },
+370 silly resolved     _id: 'progress@1.1.8',
+370 silly resolved     _from: 'progress@1.1.x' },
+370 silly resolved   { name: 'request',
+370 silly resolved     description: 'Simplified HTTP request client.',
+370 silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+370 silly resolved     version: '2.51.0',
+370 silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+370 silly resolved     repository: { type: 'git', url: 'https://github.com/request/request.git' },
+370 silly resolved     bugs: { url: 'http://github.com/request/request/issues' },
+370 silly resolved     license: 'Apache-2.0',
+370 silly resolved     engines: { node: '>=0.8.0' },
+370 silly resolved     main: 'index.js',
+370 silly resolved     dependencies:
+370 silly resolved      { bl: '~0.9.0',
+370 silly resolved        caseless: '~0.8.0',
+370 silly resolved        'forever-agent': '~0.5.0',
+370 silly resolved        'form-data': '~0.2.0',
+370 silly resolved        'json-stringify-safe': '~5.0.0',
+370 silly resolved        'mime-types': '~1.0.1',
+370 silly resolved        'node-uuid': '~1.4.0',
+370 silly resolved        qs: '~2.3.1',
+370 silly resolved        'tunnel-agent': '~0.4.0',
+370 silly resolved        'tough-cookie': '>=0.12.0',
+370 silly resolved        'http-signature': '~0.10.0',
+370 silly resolved        'oauth-sign': '~0.5.0',
+370 silly resolved        hawk: '1.1.1',
+370 silly resolved        'aws-sign2': '~0.5.0',
+370 silly resolved        stringstream: '~0.0.4',
+370 silly resolved        'combined-stream': '~0.0.5' },
+370 silly resolved     scripts:
+370 silly resolved      { test: 'npm run lint && node node_modules/.bin/taper tests/test-*.js && npm run test-browser',
+370 silly resolved        'test-browser': 'browserify tests/browser/test.js -o tests/browser/test-browser.js && karma start tests/browser/karma.conf.js',
+370 silly resolved        lint: 'node node_modules/.bin/eslint lib/ *.js tests/ && echo Lint passed.' },
+370 silly resolved     devDependencies:
+370 silly resolved      { browserify: '~5.9.1',
+370 silly resolved        coveralls: '~2.11.2',
+370 silly resolved        eslint: '0.5.1',
+370 silly resolved        'function-bind': '~1.0.0',
+370 silly resolved        istanbul: '~0.3.2',
+370 silly resolved        karma: '~0.12.21',
+370 silly resolved        'karma-cli': '0.0.4',
+370 silly resolved        'karma-phantomjs-launcher': '~0.1.4',
+370 silly resolved        'karma-tap': '~1.0.1',
+370 silly resolved        rimraf: '~2.2.8',
+370 silly resolved        tape: '~3.0.0',
+370 silly resolved        taper: '~0.3.0' },
+370 silly resolved     readme: '# Request — Simplified HTTP client\n[![NPM](https://nodei.co/npm/request.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/request/)\n\n[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/request/request?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n## Super simple to use\n\nRequest is designed to be the simplest way possible to make http calls. It supports HTTPS and follows redirects by default.\n\n```javascript\nvar request = require(\'request\');\nrequest(\'http://www.google.com\', function (error, response, body) {\n  if (!error && response.statusCode == 200) {\n    console.log(body) // Print the google web page.\n  }\n})\n```\n\n## Streaming\n\nYou can stream any response to a file stream.\n\n```javascript\nrequest(\'http://google.com/doodle.png\').pipe(fs.createWriteStream(\'doodle.png\'))\n```\n\nYou can also stream a file to a PUT or POST request. This method will also check the file extension against a mapping of file extensions to content-types (in this case `application/json`) and use the proper `content-type` in the PUT request (if the headers don’t already provide one).\n\n```javascript\nfs.createReadStream(\'file.json\').pipe(request.put(\'http://mysite.com/obj.json\'))\n```\n\nRequest can also `pipe` to itself. When doing so, `content-type` and `content-length` are preserved in the PUT headers.\n\n```javascript\nrequest.get(\'http://google.com/img.png\').pipe(request.put(\'http://mysite.com/img.png\'))\n```\n\nRequest emits a "response" event when a response is received. The `response` argument will be an instance of [http.IncomingMessage](http://nodejs.org/api/http.html#http_http_incomingmessage).\n\n```javascript\nrequest\n  .get(\'http://google.com/img.png\')\n  .on(\'response\', function(response) {\n    console.log(response.statusCode) // 200\n    console.log(response.headers[\'content-type\']) // \'image/png\'\n  })\n  .pipe(request.put(\'http://mysite.com/img.png\'))\n```\n\nTo easily handle errors when streaming requests, listen to the `error` event before piping:\n\n```javascript\nrequest\n  .get(\'http://mysite.com/doodle.png\')\n  .on(\'error\', function(err) {\n    console.log(err)\n  })\n  .pipe(fs.createWriteStream(\'doodle.png\'))\n```\n\nNow let’s get fancy.\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    if (req.method === \'PUT\') {\n      req.pipe(request.put(\'http://mysite.com/doodle.png\'))\n    } else if (req.method === \'GET\' || req.method === \'HEAD\') {\n      request.get(\'http://mysite.com/doodle.png\').pipe(resp)\n    }\n  }\n})\n```\n\nYou can also `pipe()` from `http.ServerRequest` instances, as well as to `http.ServerResponse` instances. The HTTP method, headers, and entity-body data will be sent. Which means that, if you don\'t really care about security, you can do:\n\n```javascript\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    var x = request(\'http://mysite.com/doodle.png\')\n    req.pipe(x)\n    x.pipe(resp)\n  }\n})\n```\n\nAnd since `pipe()` returns the destination stream in ≥ Node 0.5.x you can do one line proxying. :)\n\n```javascript\nreq.pipe(request(\'http://mysite.com/doodle.png\')).pipe(resp)\n```\n\nAlso, none of this new functionality conflicts with requests previous features, it just expands them.\n\n```javascript\nvar r = request.defaults({\'proxy\':\'http://localproxy.com\'})\n\nhttp.createServer(function (req, resp) {\n  if (req.url === \'/doodle.png\') {\n    r.get(\'http://google.com/doodle.png\').pipe(resp)\n  }\n})\n```\n\nYou can still use intermediate proxies, the requests will still follow HTTP forwards, etc.\n\n## Proxies\n\nIf you specify a `proxy` option, then the request (and any subsequent\nredirects) will be sent via a connection to the proxy server.\n\nIf your endpoint is an `https` url, and you are using a proxy, then\nrequest will send a `CONNECT` request to the proxy server *first*, and\nthen use the supplied connection to connect to the endpoint.\n\nThat is, first it will make a request like:\n\n```\nHTTP/1.1 CONNECT endpoint-server.com:80\nHost: proxy-server.com\nUser-Agent: whatever user agent you specify\n```\n\nand then the proxy server make a TCP connection to `endpoint-server`\non port `80`, and return a response that looks like:\n\n```\nHTTP/1.1 200 OK\n```\n\nAt this point, the connection is left open, and the client is\ncommunicating directly with the `endpoint-server.com` machine.\n\nSee [the wikipedia page on HTTP Tunneling](http://en.wikipedia.org/wiki/HTTP_tunnel)\nfor more information.\n\nBy default, when proxying `http` traffic, request will simply make a\nstandard proxied `http` request.  This is done by making the `url`\nsection of the initial line of the request a fully qualified url to\nthe endpoint.\n\nFor example, it will make a single request that looks like:\n\n```\nHTTP/1.1 GET http://endpoint-server.com/some-url\nHost: proxy-server.com\nOther-Headers: all go here\n\nrequest body or whatever\n```\n\nBecause a pure "http over http" tunnel offers no additional security\nor other features, it is generally simpler to go with a\nstraightforward HTTP proxy in this case.  However, if you would like\nto force a tunneling proxy, you may set the `tunnel` option to `true`.\n\nIf you are using a tunneling proxy, you may set the\n`proxyHeaderWhiteList` to share certain headers with the proxy.\n\nYou can also set the `proxyHeaderExclusiveList` to share certain\nheaders only with the proxy and not with destination host.\n\nBy default, this set is:\n\n```\naccept\naccept-charset\naccept-encoding\naccept-language\naccept-ranges\ncache-control\ncontent-encoding\ncontent-language\ncontent-length\ncontent-location\ncontent-md5\ncontent-range\ncontent-type\nconnection\ndate\nexpect\nmax-forwards\npragma\nproxy-authorization\nreferer\nte\ntransfer-encoding\nuser-agent\nvia\n```\n\nNote that, when using a tunneling proxy, the `proxy-authorization`\nheader and any headers from custom `proxyHeaderExclusiveList` are\n*never* sent to the endpoint server, but only to the proxy server.\n\n### Controlling proxy behaviour using environment variables\n\nThe following environment variables are respected by `request`:\n\n * `HTTP_PROXY` / `http_proxy`\n * `HTTPS_PROXY` / `https_proxy`\n * `NO_PROXY` / `no_proxy`\n\nWhen `HTTP_PROXY` / `http_proxy` are set, they will be used to proxy non-SSL requests that do not have an explicit `proxy` configuration option present. Similarly, `HTTPS_PROXY` / `https_proxy` will be respected for SSL requests that do not have an explicit `proxy` configuration option. It is valid to define a proxy in one of the environment variables, but then override it for a specific request, using the `proxy` configuration option. Furthermore, the `proxy` configuration option can be explicitly set to false / null to opt out of proxying altogether for that request.\n\n`request` is also aware of the `NO_PROXY`/`no_proxy` environment variables. These variables provide a granular way to opt out of proxying, on a per-host basis. It should contain a comma separated list of hosts to opt out of proxying. It is also possible to opt of proxying when a particular destination port is used. Finally, the variable may be set to `*` to opt out of the implicit proxy configuration of the other environment variables.\n\nHere\'s some examples of valid `no_proxy` values:\n\n * `google.com` - don\'t proxy HTTP/HTTPS requests to Google.\n * `google.com:443` - don\'t proxy HTTPS requests to Google, but *do* proxy HTTP requests to Google.\n * `google.com:443, yahoo.com:80` - don\'t proxy HTTPS requests to Google, and don\'t proxy HTTP requests to Yahoo!\n * `*` - ignore `https_proxy`/`http_proxy` environment variables altogether.\n\n## UNIX Socket\n\n`request` supports making requests to [UNIX Domain Sockets](http://en.wikipedia.org/wiki/Unix_domain_socket). To make one, use the following URL scheme:\n\n```javascript\n/* Pattern */ \'http://unix:SOCKET:PATH\'\n/* Example */ request.get(\'http://unix:/absolute/path/to/unix.socket:/request/path\')\n```\n\nNote: The `SOCKET` path is assumed to be absolute to the root of the host file system.\n\n\n## Forms\n\n`request` supports `application/x-www-form-urlencoded` and `multipart/form-data` form uploads. For `multipart/related` refer to the `multipart` API.\n\n#### application/x-www-form-urlencoded (URL-Encoded Forms)\n\nURL-encoded forms are simple.\n\n```javascript\nrequest.post(\'http://service.com/upload\', {form:{key:\'value\'}})\n// or\nrequest.post(\'http://service.com/upload\').form({key:\'value\'})\n// or\nrequest.post({url:\'http://service.com/upload\', form: {key:\'value\'}}, function(err,httpResponse,body){ /* ... */ })\n```\n\n#### multipart/form-data (Multipart Form Uploads)\n\nFor `multipart/form-data` we use the [form-data](https://github.com/felixge/node-form-data) library by [@felixge](https://github.com/felixge). For the most cases, you can pass your upload form data via the `formData` option.\n\n\n```javascript\nvar formData = {\n  // Pass a simple key-value pair\n  my_field: \'my_value\',\n  // Pass data via Buffers\n  my_buffer: new Buffer([1, 2, 3]),\n  // Pass data via Streams\n  my_file: fs.createReadStream(__dirname + \'/unicycle.jpg\'),\n  // Pass multiple values /w an Array\n  attachments: [\n    fs.createReadStream(__dirname + \'/attachment1.jpg\'),\n    fs.createReadStream(__dirname + \'/attachment2.jpg\')\n  ],\n  // Pass optional meta-data with an \'options\' object with style: {value: DATA, options: OPTIONS}\n  // Use case: for some types of streams, you\'ll need to provide "file"-related information manually.\n  // See the `form-data` README for more information about options: https://github.com/felixge/node-form-data\n  custom_file: {\n    value:  fs.createReadStream(\'/dev/urandom\'),\n    options: {\n      filename: \'topsecret.jpg\',\n      contentType: \'image/jpg\'\n    }\n  }\n};\nrequest.post({url:\'http://service.com/upload\', formData: formData}, function optionalCallback(err, httpResponse, body) {\n  if (err) {\n    return console.error(\'upload failed:\', err);\n  }\n  console.log(\'Upload successful!  Server responded with:\', body);\n});\n```\n\nFor advanced cases, you can access the form-data object itself via `r.form()`. This can be modified until the request is fired on the next cycle of the event-loop. (Note that this calling `form()` will clear the currently set form data for that request.)\n\n```javascript\n// NOTE: Advanced use-case, for normal use see \'formData\' usage above\nvar r = request.post(\'http://service.com/upload\', function optionalCallback(err, httpResponse, body) { // ...\n\nvar form = r.form();\nform.append(\'my_field\', \'my_value\');\nform.append(\'my_buffer\', new Buffer([1, 2, 3]));\nform.append(\'custom_file\', fs.createReadStream(__dirname + \'/unicycle.jpg\'), {filename: \'unicycle.jpg\'});\n```\nSee the [form-data README](https://github.com/felixge/node-form-data) for more information & examples.\n\n#### multipart/related\n\nSome variations in different HTTP implementations require a newline/CRLF before, after, or both before and after the boundary of a `multipart/related` request (using the multipart option). This has been observed in the .NET WebAPI version 4.0. You can turn on a boundary preambleCRLF or postamble by passing them as `true` to your request options.\n\n```javascript\n  request({\n    method: \'PUT\',\n    preambleCRLF: true,\n    postambleCRLF: true,\n    uri: \'http://service.com/upload\',\n    multipart: [\n      {\n        \'content-type\': \'application/json\'\n        body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n      },\n      { body: \'I am an attachment\' },\n      { body: fs.createReadStream(\'image.png\') }\n    ],\n    // alternatively pass an object containing additional options\n    multipart: {\n      chunked: false,\n      data: [\n        {\n          \'content-type\': \'application/json\',\n          body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n        },\n        { body: \'I am an attachment\' }\n      ]\n    }\n  },\n  function (error, response, body) {\n    if (error) {\n      return console.error(\'upload failed:\', error);\n    }\n    console.log(\'Upload successful!  Server responded with:\', body);\n  })\n```\n\n\n## HTTP Authentication\n\n```javascript\nrequest.get(\'http://some.server.com/\').auth(\'username\', \'password\', false);\n// or\nrequest.get(\'http://some.server.com/\', {\n  \'auth\': {\n    \'user\': \'username\',\n    \'pass\': \'password\',\n    \'sendImmediately\': false\n  }\n});\n// or\nrequest.get(\'http://some.server.com/\').auth(null, null, true, \'bearerToken\');\n// or\nrequest.get(\'http://some.server.com/\', {\n  \'auth\': {\n    \'bearer\': \'bearerToken\'\n  }\n});\n```\n\nIf passed as an option, `auth` should be a hash containing values `user` || `username`, `pass` || `password`, and `sendImmediately` (optional).  The method form takes parameters `auth(username, password, sendImmediately)`.\n\n`sendImmediately` defaults to `true`, which causes a basic authentication header to be sent.  If `sendImmediately` is `false`, then `request` will retry with a proper authentication header after receiving a `401` response from the server (which must contain a `WWW-Authenticate` header indicating the required authentication method).\n\nNote that you can also use for basic authentication a trick using the URL itself, as specified in [RFC 1738](http://www.ietf.org/rfc/rfc1738.txt).\nSimply pass the `user:password` before the host with an `@` sign.\n\n```javascript\nvar username = \'username\',\n    password = \'password\',\n    url = \'http://\' + username + \':\' + password + \'@some.server.com\';\n\nrequest({url: url}, function (error, response, body) {\n   // Do more stuff with \'body\' here\n});\n```\n\nDigest authentication is supported, but it only works with `sendImmediately` set to `false`; otherwise `request` will send basic authentication on the initial request, which will probably cause the request to fail.\n\nBearer authentication is supported, and is activated when the `bearer` value is available. The value may be either a `String` or a `Function` returning a `String`. Using a function to supply the bearer token is particularly useful if used in conjuction with `defaults` to allow a single function to supply the last known token at the time or sending a request or to compute one on the fly.\n\n## OAuth Signing\n\n[OAuth version 1.0](https://tools.ietf.org/html/rfc5849) is supported.  The\ndefault signing algorithm is\n[HMAC-SHA1](https://tools.ietf.org/html/rfc5849#section-3.4.2):\n\n```javascript\n// Twitter OAuth\nvar qs = require(\'querystring\')\n  , oauth =\n    { callback: \'http://mysite.com/callback/\'\n    , consumer_key: CONSUMER_KEY\n    , consumer_secret: CONSUMER_SECRET\n    }\n  , url = \'https://api.twitter.com/oauth/request_token\'\n  ;\nrequest.post({url:url, oauth:oauth}, function (e, r, body) {\n  // Ideally, you would take the body in the response\n  // and construct a URL that a user clicks on (like a sign in button).\n  // The verifier is only available in the response after a user has\n  // verified with twitter that they are authorizing your app.\n  var access_token = qs.parse(body)\n    , oauth =\n      { consumer_key: CONSUMER_KEY\n      , consumer_secret: CONSUMER_SECRET\n      , token: access_token.oauth_token\n      , verifier: access_token.oauth_verifier\n      }\n    , url = \'https://api.twitter.com/oauth/access_token\'\n    ;\n  request.post({url:url, oauth:oauth}, function (e, r, body) {\n    var perm_token = qs.parse(body)\n      , oauth =\n        { consumer_key: CONSUMER_KEY\n        , consumer_secret: CONSUMER_SECRET\n        , token: perm_token.oauth_token\n        , token_secret: perm_token.oauth_token_secret\n        }\n      , url = \'https://api.twitter.com/1.1/users/show.json?\'\n      , params =\n        { screen_name: perm_token.screen_name\n        , user_id: perm_token.user_id\n        }\n      ;\n    url += qs.stringify(params)\n    request.get({url:url, oauth:oauth, json:true}, function (e, r, user) {\n      console.log(user)\n    })\n  })\n})\n```\n\nFor [RSA-SHA1 signing](https://tools.ietf.org/html/rfc5849#section-3.4.3), make\nthe following changes to the OAuth options object:\n* Pass `signature_method : \'RSA-SHA1\'`\n* Instead of `consumer_secret`, specify a `private_key` string in\n  [PEM format](http://how2ssl.com/articles/working_with_pem_files/)\n\n## Custom HTTP Headers\n\nHTTP Headers, such as `User-Agent`, can be set in the `options` object.\nIn the example below, we call the github API to find out the number\nof stars and forks for the request repository. This requires a\ncustom `User-Agent` header as well as https.\n\n```javascript\nvar request = require(\'request\');\n\nvar options = {\n\turl: \'https://api.github.com/repos/request/request\',\n\theaders: {\n\t\t\'User-Agent\': \'request\'\n\t}\n};\n\nfunction callback(error, response, body) {\n\tif (!error && response.statusCode == 200) {\n\t\tvar info = JSON.parse(body);\n\t\tconsole.log(info.stargazers_count + " Stars");\n\t\tconsole.log(info.forks_count + " Forks");\n\t}\n}\n\nrequest(options, callback);\n```\n\n## TLS/SSL Protocol\n\nTLS/SSL Protocol options, such as `cert`, `key` and `passphrase`, can be\nset in the `agentOptions` property of the `options` object.\nIn the example below, we call an API requires client side SSL certificate\n(in PEM format) with passphrase protected private key (in PEM format) and disable the SSLv3 protocol:\n\n```javascript\nvar fs = require(\'fs\')\n    , path = require(\'path\')\n    , certFile = path.resolve(__dirname, \'ssl/client.crt\')\n    , keyFile = path.resolve(__dirname, \'ssl/client.key\')\n    , request = require(\'request\');\n\nvar options = {\n    url: \'https://api.some-server.com/\',\n    agentOptions: {\n        cert: fs.readFileSync(certFile),\n        key: fs.readFileSync(keyFile),\n        // Or use `pfx` property replacing `cert` and `key` when using private key, certificate and CA certs in PFX or PKCS12 format:\n        // pfx: fs.readFileSync(pfxFilePath),\n        passphrase: \'password\',\n        securityOptions: \'SSL_OP_NO_SSLv3\'\n    }\n};\n\nrequest.get(options);\n```\n\nIt is able to force using SSLv3 only by specifying `secureProtocol`:\n\n```javascript\nrequest.get({\n    url: \'https://api.some-server.com/\',\n    agentOptions: {\n        secureProtocol: \'SSLv3_method\'\n    }\n});\n```\n\nIt is possible to accept other certificates than those signed by generally allowed Certificate Authorities (CAs).\nThis can be useful, for example,  when using self-signed certificates.\nTo allow a different certificate, you can specify the signing CA by adding the contents of the CA\'s certificate file to the `agentOptions`:\n\n```javascript\nrequest.get({\n    url: \'https://api.some-server.com/\',\n    agentOptions: {\n        ca: fs.readFileSync(\'ca.cert.pem\')\n    }\n});\n```\n\n## request(options, callback)\n\nThe first argument can be either a `url` or an `options` object. The only required option is `uri`; all others are optional.\n\n* `uri` || `url` - fully qualified uri or a parsed url object from `url.parse()`\n* `qs` - object containing querystring values to be appended to the `uri`\n* `useQuerystring` - If true, use `querystring` to stringify and parse\n  querystrings, otherwise use `qs` (default: `false`).  Set this option to\n  `true` if you need arrays to be serialized as `foo=bar&foo=baz` instead of the\n  default `foo[0]=bar&foo[1]=baz`.\n* `method` - http method (default: `"GET"`)\n* `headers` - http headers (default: `{}`)\n* `body` - entity body for PATCH, POST and PUT requests. Must be a `Buffer` or `String`, unless `json` is `true`. If `json` is `true`, then `body` must be a JSON-serializable object.\n* `form` - when passed an object or a querystring, this sets `body` to a querystring representation of value, and adds `Content-type: application/x-www-form-urlencoded` header. When passed no options, a `FormData` instance is returned (and is piped to request). See "Forms" section above.\n* `formData` - Data to pass for a `multipart/form-data` request. See\n  [Forms](#forms) section above.\n* `multipart` - array of objects which contain their own headers and `body`\n  attributes. Sends a `multipart/related` request. See [Forms](#forms) section\n  above.\n  * Alternatively you can pass in an object `{chunked: false, data: []}` where\n    `chunked` is used to specify whether the request is sent in\n    [chunked transfer encoding](https://en.wikipedia.org/wiki/Chunked_transfer_encoding)\n    (the default is `chunked: true`).  In non-chunked requests, data items with\n    body streams are not allowed.\n* `auth` - A hash containing values `user` || `username`, `pass` || `password`, and `sendImmediately` (optional).  See documentation above.\n* `json` - sets `body` but to JSON representation of value and adds `Content-type: application/json` header.  Additionally, parses the response body as JSON.\n* `jsonReviver` - a [reviver function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse) that will be passed to `JSON.parse()` when parsing a JSON response body.\n* `preambleCRLF` - append a newline/CRLF before the boundary of your `multipart/form-data` request.\n* `postambleCRLF` - append a newline/CRLF at the end of the boundary of your `multipart/form-data` request.\n* `followRedirect` - follow HTTP 3xx responses as redirects (default: `true`). This property can also be implemented as function which gets `response` object as a single argument and should return `true` if redirects should continue or `false` otherwise.\n* `followAllRedirects` - follow non-GET HTTP 3xx responses as redirects (default: `false`)\n* `maxRedirects` - the maximum number of redirects to follow (default: `10`)\n* `encoding` - Encoding to be used on `setEncoding` of response data. If `null`, the `body` is returned as a `Buffer`. Anything else **(including the default value of `undefined`)** will be passed as the [encoding](http://nodejs.org/api/buffer.html#buffer_buffer) parameter to `toString()` (meaning this is effectively `utf8` by default).\n* `pool` - An object describing which agents to use for the request. If this option is omitted the request will use the global agent (as long as [your options allow for it](request.js#L747)). Otherwise, request will search the pool for your custom agent. If no custom agent is found, a new agent will be created and added to the pool.\n  * A `maxSockets` property can also be provided on the `pool` object to set the max number of sockets for all agents created (ex: `pool: {maxSockets: Infinity}`).\n  * Note that if you are sending multiple requests in a loop and creating\n    multiple new `pool` objects, `maxSockets` will not work as intended.  To\n    work around this, either use [`request.defaults`](#requestdefaultsoptions)\n    with your pool options or create the pool object with the `maxSockets`\n    property outside of the loop.\n* `timeout` - Integer containing the number of milliseconds to wait for a request to respond before aborting the request\n* `proxy` - An HTTP proxy to be used. Supports proxy Auth with Basic Auth, identical to support for the `url` parameter (by embedding the auth info in the `uri`)\n* `oauth` - Options for OAuth HMAC-SHA1 signing. See documentation above.\n* `hawk` - Options for [Hawk signing](https://github.com/hueniverse/hawk). The `credentials` key must contain the necessary signing info, [see hawk docs for details](https://github.com/hueniverse/hawk#usage-example).\n* `strictSSL` - If `true`, requires SSL certificates be valid. **Note:** to use your own certificate authority, you need to specify an agent that was created with that CA as an option.\n* `agentOptions` - Object containing user agent options. See documentation above. **Note:** [see tls API doc for TLS/SSL options](http://nodejs.org/api/tls.html#tls_tls_connect_options_callback).\n\n* `jar` - If `true` and `tough-cookie` is installed, remember cookies for future use (or define your custom cookie jar; see examples section)\n* `aws` - `object` containing AWS signing information. Should have the properties `key`, `secret`. Also requires the property `bucket`, unless you’re specifying your `bucket` as part of the path, or the request doesn’t use a bucket (i.e. GET Services)\n* `httpSignature` - Options for the [HTTP Signature Scheme](https://github.com/joyent/node-http-signature/blob/master/http_signing.md) using [Joyent\'s library](https://github.com/joyent/node-http-signature). The `keyId` and `key` properties must be specified. See the docs for other options.\n* `localAddress` - Local interface to bind for network connections.\n* `gzip` - If `true`, add an `Accept-Encoding` header to request compressed content encodings from the server (if not already present) and decode supported content encodings in the response.  **Note:** Automatic decoding of the response content is performed on the body data returned through `request` (both through the `request` stream and passed to the callback function) but is not performed on the `response` stream (available from the `response` event) which is the unmodified `http.IncomingMessage` object which may contain compressed data. See example below.\n* `tunnel` - If `true`, then *always* use a tunneling proxy.  If\n  `false` (default), then tunneling will only be used if the\n  destination is `https`, or if a previous request in the redirect\n  chain used a tunneling proxy.\n* `proxyHeaderWhiteList` - A whitelist of headers to send to a\n  tunneling proxy.\n* `proxyHeaderExclusiveList` - A whitelist of headers to send\n  exclusively to a tunneling proxy and not to destination.\n\n\nThe callback argument gets 3 arguments:\n\n1. An `error` when applicable (usually from [`http.ClientRequest`](http://nodejs.org/api/http.html#http_class_http_clientrequest) object)\n2. An [`http.IncomingMessage`](http://nodejs.org/api/http.html#http_http_incomingmessage) object\n3. The third is the `response` body (`String` or `Buffer`, or JSON object if the `json` option is supplied)\n\n## Convenience methods\n\nThere are also shorthand methods for different HTTP METHODs and some other conveniences.\n\n### request.defaults(options)\n\nThis method **returns a wrapper** around the normal request API that defaults\nto whatever options you pass to it.\n\n**Note:** `request.defaults()` **does not** modify the global request API;\ninstead, it **returns a wrapper** that has your default settings applied to it.\n\n**Note:** You can call `.defaults()` on the wrapper that is returned from\n`request.defaults` to add/override defaults that were previously defaulted.\n\nFor example:\n```javascript\n//requests using baseRequest() will set the \'x-token\' header\nvar baseRequest = request.defaults({\n  headers: {x-token: \'my-token\'}\n})\n\n//requests using specialRequest() will include the \'x-token\' header set in\n//baseRequest and will also include the \'special\' header\nvar specialRequest = baseRequest.defaults({\n  headers: {special: \'special value\'}\n})\n```\n\n### request.put\n\nSame as `request()`, but defaults to `method: "PUT"`.\n\n```javascript\nrequest.put(url)\n```\n\n### request.patch\n\nSame as `request()`, but defaults to `method: "PATCH"`.\n\n```javascript\nrequest.patch(url)\n```\n\n### request.post\n\nSame as `request()`, but defaults to `method: "POST"`.\n\n```javascript\nrequest.post(url)\n```\n\n### request.head\n\nSame as request() but defaults to `method: "HEAD"`.\n\n```javascript\nrequest.head(url)\n```\n\n### request.del\n\nSame as `request()`, but defaults to `method: "DELETE"`.\n\n```javascript\nrequest.del(url)\n```\n\n### request.get\n\nSame as `request()` (for uniformity).\n\n```javascript\nrequest.get(url)\n```\n### request.cookie\n\nFunction that creates a new cookie.\n\n```javascript\nrequest.cookie(\'key1=value1\')\n```\n### request.jar()\n\nFunction that creates a new cookie jar.\n\n```javascript\nrequest.jar()\n```\n\n\n## Examples:\n\n```javascript\n  var request = require(\'request\')\n    , rand = Math.floor(Math.random()*100000000).toString()\n    ;\n  request(\n    { method: \'PUT\'\n    , uri: \'http://mikeal.iriscouch.com/testjs/\' + rand\n    , multipart:\n      [ { \'content-type\': \'application/json\'\n        ,  body: JSON.stringify({foo: \'bar\', _attachments: {\'message.txt\': {follows: true, length: 18, \'content_type\': \'text/plain\' }}})\n        }\n      , { body: \'I am an attachment\' }\n      ]\n    }\n  , function (error, response, body) {\n      if(response.statusCode == 201){\n        console.log(\'document saved as: http://mikeal.iriscouch.com/testjs/\'+ rand)\n      } else {\n        console.log(\'error: \'+ response.statusCode)\n        console.log(body)\n      }\n    }\n  )\n```\n\nFor backwards-compatibility, response compression is not supported by default.\nTo accept gzip-compressed responses, set the `gzip` option to `true`.  Note\nthat the body data passed through `request` is automatically decompressed\nwhile the response object is unmodified and will contain compressed data if\nthe server sent a compressed response.\n\n```javascript\n  var request = require(\'request\')\n  request(\n    { method: \'GET\'\n    , uri: \'http://www.google.com\'\n    , gzip: true\n    }\n  , function (error, response, body) {\n      // body is the decompressed response body\n      console.log(\'server encoded the data as: \' + (response.headers[\'content-encoding\'] || \'identity\'))\n      console.log(\'the decoded data is: \' + body)\n    }\n  ).on(\'data\', function(data) {\n    // decompressed data as it is received\n    console.log(\'decoded chunk: \' + data)\n  })\n  .on(\'response\', function(response) {\n    // unmodified http.IncomingMessage object\n    response.on(\'data\', function(data) {\n      // compressed data as it is received\n      console.log(\'received \' + data.length + \' bytes of compressed data\')\n    })\n  })\n```\n\nCookies are disabled by default (else, they would be used in subsequent requests). To enable cookies, set `jar` to `true` (either in `defaults` or `options`) and install `tough-cookie`.\n\n```javascript\nvar request = request.defaults({jar: true})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nTo use a custom cookie jar (instead of `request`’s global cookie jar), set `jar` to an instance of `request.jar()` (either in `defaults` or `options`)\n\n```javascript\nvar j = request.jar()\nvar request = request.defaults({jar:j})\nrequest(\'http://www.google.com\', function () {\n  request(\'http://images.google.com\')\n})\n```\n\nOR\n\n```javascript\nvar j = request.jar();\nvar cookie = request.cookie(\'key1=value1\');\nvar url = \'http://www.google.com\';\nj.setCookie(cookie, url);\nrequest({url: url, jar: j}, function () {\n  request(\'http://images.google.com\')\n})\n```\n\nTo use a custom cookie store (such as a\n[`FileCookieStore`](https://github.com/mitsuru/tough-cookie-filestore)\nwhich supports saving to and restoring from JSON files), pass it as a parameter\nto `request.jar()`:\n\n```javascript\nvar FileCookieStore = require(\'tough-cookie-filestore\');\n// NOTE - currently the \'cookies.json\' file must already exist!\nvar j = request.jar(new FileCookieStore(\'cookies.json\'));\nrequest = request.defaults({ jar : j })\nrequest(\'http://www.google.com\', function() {\n  request(\'http://images.google.com\')\n})\n```\n\nThe cookie store must be a\n[`tough-cookie`](https://github.com/goinstant/tough-cookie)\nstore and it must support synchronous operations; see the\n[`CookieStore` API docs](https://github.com/goinstant/tough-cookie/#cookiestore-api)\nfor details.\n\nTo inspect your cookie jar after a request:\n\n```javascript\nvar j = request.jar()\nrequest({url: \'http://www.google.com\', jar: j}, function () {\n  var cookie_string = j.getCookieString(uri); // "key1=value1; key2=value2; ..."\n  var cookies = j.getCookies(uri);\n  // [{key: \'key1\', value: \'value1\', domain: "www.google.com", ...}, ...]\n})\n```\n\n## Debugging\n\nThere are at least three ways to debug the operation of `request`:\n\n1. Launch the node process like `NODE_DEBUG=request node script.js`\n   (`lib,request,otherlib` works too).\n\n2. Set `require(\'request\').debug = true` at any time (this does the same thing\n   as #1).\n\n3. Use the [request-debug module](https://github.com/nylen/request-debug) to\n   view request and response headers and bodies.\n',
+370 silly resolved     readmeFilename: 'README.md',
+370 silly resolved     _id: 'request@2.51.0',
+370 silly resolved     _from: 'request@2.51.x' },
+370 silly resolved   { name: 'chalk',
+370 silly resolved     version: '0.5.1',
+370 silly resolved     description: 'Terminal string styling done right. Created because the `colors` module does some really horrible things.',
+370 silly resolved     license: 'MIT',
+370 silly resolved     repository: { type: 'git', url: 'sindresorhus/chalk' },
+370 silly resolved     maintainers: [ [Object], [Object] ],
+370 silly resolved     engines: { node: '>=0.10.0' },
+370 silly resolved     scripts: { test: 'mocha', bench: 'matcha benchmark.js' },
+370 silly resolved     files: [ 'index.js' ],
+370 silly resolved     keywords:
+370 silly resolved      [ 'color',
+370 silly resolved        'colour',
+370 silly resolved        'colors',
+370 silly resolved        'terminal',
+370 silly resolved        'console',
+370 silly resolved        'cli',
+370 silly resolved        'string',
+370 silly resolved        'ansi',
+370 silly resolved        'styles',
+370 silly resolved        'tty',
+370 silly resolved        'formatting',
+370 silly resolved        'rgb',
+370 silly resolved        '256',
+370 silly resolved        'shell',
+370 silly resolved        'xterm',
+370 silly resolved        'log',
+370 silly resolved        'logging',
+370 silly resolved        'command-line',
+370 silly resolved        'text' ],
+370 silly resolved     dependencies:
+370 silly resolved      { 'ansi-styles': '^1.1.0',
+370 silly resolved        'escape-string-regexp': '^1.0.0',
+370 silly resolved        'has-ansi': '^0.1.0',
+370 silly resolved        'strip-ansi': '^0.3.0',
+370 silly resolved        'supports-color': '^0.2.0' },
+370 silly resolved     devDependencies: { matcha: '^0.5.0', mocha: '*' },
+370 silly resolved     readme: '# <img width="300" src="https://cdn.rawgit.com/sindresorhus/chalk/77ae94f63ab1ac61389b190e5a59866569d1a376/logo.svg" alt="chalk">\n\n> Terminal string styling done right\n\n[![Build Status](https://travis-ci.org/sindresorhus/chalk.svg?branch=master)](https://travis-ci.org/sindresorhus/chalk)\n![](http://img.shields.io/badge/unicorn-approved-ff69b4.svg)\n\n[colors.js](https://github.com/Marak/colors.js) is currently the most popular string styling module, but it has serious deficiencies like extending String.prototype which causes all kinds of [problems](https://github.com/yeoman/yo/issues/68). Although there are other ones, they either do too much or not enough.\n\n**Chalk is a clean and focused alternative.**\n\n![screenshot](https://github.com/sindresorhus/ansi-styles/raw/master/screenshot.png)\n\n\n## Why\n\n- Highly performant\n- Doesn\'t extend String.prototype\n- Expressive API\n- Ability to nest styles\n- Clean and focused\n- Auto-detects color support\n- Actively maintained\n- [Used by 1000+ modules](https://npmjs.org/browse/depended/chalk)\n\n\n## Install\n\n```sh\n$ npm install --save chalk\n```\n\n\n## Usage\n\nChalk comes with an easy to use composable API where you just chain and nest the styles you want.\n\n```js\nvar chalk = require(\'chalk\');\n\n// style a string\nconsole.log(  chalk.blue(\'Hello world!\')  );\n\n// combine styled and normal strings\nconsole.log(  chalk.blue(\'Hello\'), \'World\' + chalk.red(\'!\')  );\n\n// compose multiple styles using the chainable API\nconsole.log(  chalk.blue.bgRed.bold(\'Hello world!\')  );\n\n// pass in multiple arguments\nconsole.log(  chalk.blue(\'Hello\', \'World!\', \'Foo\', \'bar\', \'biz\', \'baz\')  );\n\n// nest styles\nconsole.log(  chalk.red(\'Hello\', chalk.underline.bgBlue(\'world\') + \'!\')  );\n\n// nest styles of the same type even (color, underline, background)\nconsole.log(  chalk.green(\'I am a green line \' + chalk.blue(\'with a blue substring\') + \' that becomes green again!\')  );\n```\n\nEasily define your own themes.\n\n```js\nvar chalk = require(\'chalk\');\nvar error = chalk.bold.red;\nconsole.log(error(\'Error!\'));\n```\n\nTake advantage of console.log [string substitution](http://nodejs.org/docs/latest/api/console.html#console_console_log_data).\n\n```js\nvar name = \'Sindre\';\nconsole.log(chalk.green(\'Hello %s\'), name);\n//=> Hello Sindre\n```\n\n\n## API\n\n### chalk.`<style>[.<style>...](string, [string...])`\n\nExample: `chalk.red.bold.underline(\'Hello\', \'world\');`\n\nChain [styles](#styles) and call the last one as a method with a string argument. Order doesn\'t matter.\n\nMultiple arguments will be separated by space.\n\n### chalk.enabled\n\nColor support is automatically detected, but you can override it.\n\n### chalk.supportsColor\n\nDetect whether the terminal [supports color](https://github.com/sindresorhus/supports-color).\n\nCan be overridden by the user with the flags `--color` and `--no-color`.\n\nUsed internally and handled for you, but exposed for convenience.\n\n### chalk.styles\n\nExposes the styles as [ANSI escape codes](https://github.com/sindresorhus/ansi-styles).\n\nGenerally not useful, but you might need just the `.open` or `.close` escape code if you\'re mixing externally styled strings with yours.\n\n```js\nvar chalk = require(\'chalk\');\n\nconsole.log(chalk.styles.red);\n//=> {open: \'\\u001b[31m\', close: \'\\u001b[39m\'}\n\nconsole.log(chalk.styles.red.open + \'Hello\' + chalk.styles.red.close);\n```\n\n### chalk.hasColor(string)\n\nCheck whether a string [has color](https://github.com/sindresorhus/has-ansi).\n\n### chalk.stripColor(string)\n\n[Strip color](https://github.com/sindresorhus/strip-ansi) from a string.\n\nCan be useful in combination with `.supportsColor` to strip color on externally styled text when it\'s not supported.\n\nExample:\n\n```js\nvar chalk = require(\'chalk\');\nvar styledString = getText();\n\nif (!chalk.supportsColor) {\n\tstyledString = chalk.stripColor(styledString);\n}\n```\n\n\n## Styles\n\n### General\n\n- `reset`\n- `bold`\n- `dim`\n- `italic` *(not widely supported)*\n- `underline`\n- `inverse`\n- `hidden`\n- `strikethrough` *(not widely supported)*\n\n### Text colors\n\n- `black`\n- `red`\n- `green`\n- `yellow`\n- `blue`\n- `magenta`\n- `cyan`\n- `white`\n- `gray`\n\n### Background colors\n\n- `bgBlack`\n- `bgRed`\n- `bgGreen`\n- `bgYellow`\n- `bgBlue`\n- `bgMagenta`\n- `bgCyan`\n- `bgWhite`\n\n\n## License\n\nMIT © [Sindre Sorhus](http://sindresorhus.com)\n',
+370 silly resolved     readmeFilename: 'readme.md',
+370 silly resolved     _id: 'chalk@0.5.1',
+370 silly resolved     _from: 'chalk@0.5.x' },
+370 silly resolved   { name: 'when',
+370 silly resolved     version: '3.6.4',
+370 silly resolved     description: 'A lightweight Promises/A+ and when() implementation, plus other async goodies.',
+370 silly resolved     keywords:
+370 silly resolved      [ 'cujo',
+370 silly resolved        'Promises/A+',
+370 silly resolved        'promises-aplus',
+370 silly resolved        'promise',
+370 silly resolved        'promises',
+370 silly resolved        'deferred',
+370 silly resolved        'deferreds',
+370 silly resolved        'when',
+370 silly resolved        'async',
+370 silly resolved        'asynchronous',
+370 silly resolved        'ender' ],
+370 silly resolved     homepage: 'http://cujojs.com',
+370 silly resolved     licenses: [ [Object] ],
+370 silly resolved     repository: { type: 'git', url: 'https://github.com/cujojs/when' },
+370 silly resolved     bugs: { url: 'https://github.com/cujojs/when/issues' },
+370 silly resolved     maintainers: [ [Object], [Object] ],
+370 silly resolved     contributors: [ [Object], [Object], [Object] ],
+370 silly resolved     devDependencies:
+370 silly resolved      { 'promises-aplus-tests': '~2',
+370 silly resolved        benchmark: '~1',
+370 silly resolved        microtime: '~0',
+370 silly resolved        browserify: '~2',
+370 silly resolved        buster: '~0.7',
+370 silly resolved        jshint: '~2',
+370 silly resolved        rest: '1.1.x',
+370 silly resolved        optimist: '~0.6',
+370 silly resolved        'sauce-connect-launcher': '~0.4',
+370 silly resolved        wd: '~0.2',
+370 silly resolved        json5: '~0.2',
+370 silly resolved        poly: 'git://github.com/cujojs/poly#0.6.0' },
+370 silly resolved     main: 'when',
+370 silly resolved     ender: { files: [Object] },
+370 silly resolved     browser: { vertx: false },
+370 silly resolved     directories: { test: 'test' },
+370 silly resolved     scripts:
+370 silly resolved      { test: 'jshint . && buster-test -e node && promises-aplus-tests test/promises-aplus-adapter.js',
+370 silly resolved        'build-browser-test': 'browserify ./node_modules/poly/es5.js -o test/browser/es5.js && browserify ./test/*-test.js ./test/**/*-test.js -o test/browser/tests.js -x buster ',
+370 silly resolved        'browser-test': 'npm run build-browser-test && buster-static -e browser -p 8080',
+370 silly resolved        ci: 'npm test && node test/sauce.js',
+370 silly resolved        tunnel: 'node test/sauce.js -m',
+370 silly resolved        start: 'buster-static -e browser',
+370 silly resolved        benchmark: 'node benchmark/promise && node benchmark/map',
+370 silly resolved        'browserify-es6': 'browserify -s Promise es6-shim/Promise.browserify-es6.js --no-detect-globals -o es6-shim/Promise.js',
+370 silly resolved        browserify: 'browserify -s when build/when.browserify.js --no-detect-globals -o build/when.js',
+370 silly resolved        'browserify-debug': 'browserify -s when build/when.browserify-debug.js --no-detect-globals -o build/when.js' },
+370 silly resolved     readme: '<a href="http://promises-aplus.github.com/promises-spec"><img src="http://promises-aplus.github.com/promises-spec/assets/logo-small.png" alt="Promises/A+ logo" align="right" /></a>\n\n[![Build Status](https://travis-ci.org/cujojs/when.svg?branch=master)](https://travis-ci.org/cujojs/when)\n\nwhen.js\n=======\n\nWhen.js is a rock solid, battle-tested [Promises/A+](http://promises-aplus.github.com/promises-spec) and `when()` implementation, including a complete [ES6 Promise shim](docs/es6-promise-shim.md).  It\'s a powerful combination of small size, high performance, debuggability, and rich features:\n\n* Resolve arrays and hashes of promises, as well as infinite promise sequences\n* Execute tasks in parallel or sequentially\n* Transform Node-style and other callback-based APIs into promise-based APIs\n\nWhen.js is one of the many stand-alone components of [cujoJS](http://cujojs.com), the JavaScript Architectural Toolkit. \n\nCheck it out:\n\n- [What\'s new](CHANGES.md)\n- [API docs](docs/api.md#api)\n- Read more about how [promises simplify async programming](http://know.cujojs.com/tutorials/async/simplifying-async-with-promises)\n\nInstallation\n------------\n\n#### AMD\n\nAvailble as `when` through [bower](http://bower.io), or just clone the repo and load `when.js` from the root.\n\n```\nbower install --save when\n```\n\n#### CommonJS/Node\n\n```\nnpm install --save when\n```\n\n[More help & other environments &raquo;](docs/installation.md)\n\nUsage\n-----\n\nPromises can be used to help manage complex and/or nested callback flows in a simple manner. To get a better handle on how promise flows look and how they can be helpful, there are a couple examples below (using commonjs).\n\nThis first example will print `"hello world!!!!"` if all went well, or `"drat!"` if there was a problem. It also uses [rest](https://github.com/cujojs/rest) to make an ajax request to a (fictional) external service.\n\n```js\nvar rest = require(\'rest\');\n\nfetchRemoteGreeting()\n    .then(addExclamation)\n    .catch(handleError)\n    .done(function(greeting) {\n        console.log(greeting);\n    });\n\nfunction fetchRemoteGreeting() {\n    // returns a when.js promise for \'hello world\'\n    return rest(\'http://example.com/greeting\');\n}\n\nfunction addExclamation(greeting) {\n    return greeting + \'!!!!\'\n}\n\nfunction handleError(e) {\n    return \'drat!\';\n}\n```\n\nThe second example shows off the power that comes with when\'s promise logic. Here, we get an array of numbers from a remote source and reduce them. The example will print `150` if all went well, and if there was a problem will print a full stack trace.\n\n```js\nvar when = require(\'when\');\nvar rest = require(\'rest\');\n\nwhen.reduce(when.map(getRemoteNumberList(), times10), sum)\n    .done(function(result) {\n        console.log(result);\n    });\n\nfunction getRemoteNumberList() {\n    // Get a remote array [1, 2, 3, 4, 5]\n    return rest(\'http://example.com/numbers\').then(JSON.parse);\n}\n\nfunction sum(x, y) { return x + y; }\nfunction times10(x) {return x * 10; }\n```\n\nLicense\n-------\n\nLicensed under MIT. [Full license here &raquo;](LICENSE.txt)\n\nContributing\n------------\n\nPlease see the [contributing guide](CONTRIBUTING.md) for more information on running tests, opening issues, and contributing code to the project.\n\nReferences\n----------\n\nMuch of this code was inspired by the async innards of [wire.js](https://github.com/cujojs/wire), and has been influenced by the great work in [Q](https://github.com/kriskowal/q), [Dojo\'s Deferred](https://github.com/dojo/dojo), and [uber.js](https://github.com/phiggins42/uber.js).\n',
+370 silly resolved     readmeFilename: 'README.md',
+370 silly resolved     _id: 'when@3.6.4',
+370 silly resolved     _from: 'when@3.6.x' },
+370 silly resolved   { name: 'optimist',
+370 silly resolved     version: '0.6.1',
+370 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+370 silly resolved     main: './index.js',
+370 silly resolved     dependencies: { wordwrap: '~0.0.2', minimist: '~0.0.1' },
+370 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+370 silly resolved     scripts: { test: 'tap ./test/*.js' },
+370 silly resolved     repository:
+370 silly resolved      { type: 'git',
+370 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+370 silly resolved     keywords:
+370 silly resolved      [ 'argument',
+370 silly resolved        'args',
+370 silly resolved        'option',
+370 silly resolved        'parser',
+370 silly resolved        'parsing',
+370 silly resolved        'cli',
+370 silly resolved        'command' ],
+370 silly resolved     author:
+370 silly resolved      { name: 'James Halliday',
+370 silly resolved        email: 'mail@substack.net',
+370 silly resolved        url: 'http://substack.net' },
+370 silly resolved     license: 'MIT/X11',
+370 silly resolved     engine: { node: '>=0.4' },
+370 silly resolved     readme: '# DEPRECATION NOTICE\n\nI don\'t want to maintain this module anymore since I just use\n[minimist](https://npmjs.org/package/minimist), the argument parsing engine,\ndirectly instead nowadays.\n\nSee [yargs](https://github.com/chevex/yargs) for the modern, pirate-themed\nsuccessor to optimist.\n\n[![yarrrrrrrgs!](http://i.imgur.com/4WFGVJ9.png)](https://github.com/chevex/yargs)\n\nYou should also consider [nomnom](https://github.com/harthur/nomnom).\n\noptimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\nshort numbers\n-------------\n\nShort numeric `head -n5` style argument work too:\n\n    $ node reflect.js -n123 -m456\n    { \'3\': true,\n      \'6\': true,\n      _: [],\n      \'$0\': \'node ./reflect.js\',\n      n: 123,\n      m: 456 }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+370 silly resolved     readmeFilename: 'readme.markdown',
+370 silly resolved     bugs: { url: 'https://github.com/substack/node-optimist/issues' },
+370 silly resolved     _id: 'optimist@0.6.1',
+370 silly resolved     _from: 'optimist@0.6.x' },
+370 silly resolved   { name: 'prompt',
+370 silly resolved     description: 'A beautiful command-line prompt for node.js',
+370 silly resolved     version: '0.2.14',
+370 silly resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+370 silly resolved     maintainers: [ [Object], [Object] ],
+370 silly resolved     repository: { type: 'git', url: 'http://github.com/flatiron/prompt.git' },
+370 silly resolved     dependencies:
+370 silly resolved      { pkginfo: '0.x.x',
+370 silly resolved        read: '1.0.x',
+370 silly resolved        revalidator: '0.1.x',
+370 silly resolved        utile: '0.2.x',
+370 silly resolved        winston: '0.8.x' },
+370 silly resolved     devDependencies: { vows: '0.7.0' },
+370 silly resolved     main: './lib/prompt',
+370 silly resolved     scripts:
+370 silly resolved      { test: 'vows test/prompt-test.js --spec',
+370 silly resolved        'test-all': 'vows --spec' },
+370 silly resolved     engines: { node: '>= 0.6.6' },
+370 silly resolved     readme: '# prompt [![Build Status](https://secure.travis-ci.org/flatiron/prompt.svg)](http://travis-ci.org/flatiron/prompt)\n\nA beautiful command-line prompt for node.js\n\n## Features\n\n* prompts the user for input\n* supports validation and defaults\n* hides passwords\n\n## Usage\nUsing prompt is relatively straight forward. There are two core methods you should be aware of: `prompt.get()` and `prompt.addProperties()`. There methods take strings representing property names in addition to objects for complex property validation (and more). There are a number of [examples][0] that you should examine for detailed usage.\n\n### Getting Basic Prompt Information\nGetting started with `prompt` is easy. Lets take a look at `examples/simple-prompt.js`:\n\n``` js\n  var prompt = require(\'prompt\');\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: username and email\n  //\n  prompt.get([\'username\', \'email\'], function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  username: \' + result.username);\n    console.log(\'  email: \' + result.email);\n  });\n```\n\nThis will result in the following command-line output:\n\n```\n  $ node examples/simple-prompt.js\n  prompt: username: some-user\n  prompt: email: some-user@some-place.org\n  Command-line input received:\n    username: some-user\n    email: some-user@some-place.org\n```\n\n### Prompting with Validation, Default Values, and More (Complex Properties)\nIn addition to prompting the user with simple string prompts, there is a robust API for getting and validating complex information from a command-line prompt. Here\'s a quick sample:\n\n``` js\n  var schema = {\n    properties: {\n      name: {\n        pattern: /^[a-zA-Z\\s\\-]+$/,\n        message: \'Name must be only letters, spaces, or dashes\',\n        required: true\n      },\n      password: {\n        hidden: true\n      }\n    }\n  };\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: email, password\n  //\n  prompt.get(schema, function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  name: \' + result.name);\n    console.log(\'  password: \' + result.password);\n  });\n```\n\nPretty easy right? The output from the above script is:\n\n```\n  $ node examples/property-prompt.js\n  prompt: name: nodejitsu000\n  error:  Invalid input for name\n  error:  Name must be only letters, spaces, or dashes\n  prompt: name: Nodejitsu Inc\n  prompt: password:\n  Command-line input received:\n    name: Nodejitsu Inc\n    password: some-password\n```\n\n## Valid Property Settings\n`prompt` understands JSON-schema with a few extra parameters and uses [revalidator](https://github.com/flatiron/revalidator) for validation.\n\nHere\'s an overview of the properties that may be used for validation and prompting controls:\n\n``` js\n  {\n    description: \'Enter your password\',     // Prompt displayed to the user. If not supplied name will be used.\n    type: \'string\',                 // Specify the type of input to expect.\n    pattern: /^\\w+$/,                  // Regular expression that input must be valid against.\n    message: \'Password must be letters\', // Warning message to display if validation fails.\n    hidden: true,                        // If true, characters entered will not be output to console.\n    default: \'lamepassword\',             // Default value to use if no value is entered.\n    required: true                        // If true, value entered must be non-empty.\n    before: function(value) { return \'v\' + value; } // Runs before node-prompt callbacks. It modifies user\'s input\n  }\n```\n\nAlternatives to `pattern` include `format` and `conform`, as documented in [revalidator](https://github.com/flatiron/revalidator).\n\nUsing `type: \'array\'` has some special cases.\n\n- `description` will not work in the schema if `type: \'array\'` is defined.\n- `maxItems` takes precedence over `minItems`.\n- Arrays that do not have `maxItems` defined will require users to `SIGINT` (`^C`) before the array is ended.\n- If `SIGINT` (`^C`) is triggered before `minItems` is met, a validation error will appear. This will require users to `SIGEOF` (`^D`) to end the input.\n\nFor more information on things such as `maxItems` and `minItems`, refer to the [revalidator](https://github.com/flatiron/revalidator) repository.\n\n### Alternate Validation API:\n\nPrompt, in addition to iterating over JSON-Schema properties, will also happily iterate over an array of validation objects given an extra \'name\' property:\n\n```js\n  var prompt = require(\'../lib/prompt\');\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: username and password\n  //\n  prompt.get([{\n      name: \'username\',\n      required: true\n    }, {\n      name: \'password\',\n      hidden: true,\n      conform: function (value) {\n        return true;\n      }\n    }], function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  username: \' + result.username);\n    console.log(\'  password: \' + result.password);\n  });\n```\n\n### Backward Compatibility\n\nNote that, while this structure is similar to that used by prompt 0.1.x, that the object properties use the same names as in JSON-Schema. prompt 0.2.x is backward compatible with prompt 0.1.x except for asynchronous validation.\n\n### Skipping Prompts\n\nSometimes power users may wish to skip promts and specify all data as command line options.\nif a value is set as a property of `prompt.override` prompt will use that instead of\nprompting the user.\n\n``` js\n  //prompt-override.js\n\n  var prompt = require(\'prompt\'),\n      optimist = require(\'optimist\')\n\n  //\n  // set the overrides\n  //\n  prompt.override = optimist.argv\n\n  //\n  // Start the prompt\n  //\n  prompt.start();\n\n  //\n  // Get two properties from the user: username and email\n  //\n  prompt.get([\'username\', \'email\'], function (err, result) {\n    //\n    // Log the results.\n    //\n    console.log(\'Command-line input received:\');\n    console.log(\'  username: \' + result.username);\n    console.log(\'  email: \' + result.email);\n  })\n\n  //: node prompt-override.js --username USER --email EMAIL\n```\n\n\n### Adding Properties to an Object\nA common use-case for prompting users for data from the command-line is to extend or create a configuration object that is passed onto the entry-point method for your CLI tool. `prompt` exposes a convenience method for doing just this:\n\n``` js\n  var obj = {\n    password: \'lamepassword\',\n    mindset: \'NY\'\n  }\n\n  //\n  // Log the initial object.\n  //\n  console.log(\'Initial object to be extended:\');\n  console.dir(obj);\n\n  //\n  // Add two properties to the empty object: username and email\n  //\n  prompt.addProperties(obj, [\'username\', \'email\'], function (err) {\n    //\n    // Log the results.\n    //\n    console.log(\'Updated object received:\');\n    console.dir(obj);\n  });\n```\n\n### Prompt history\nYou can use the `prompt.history()` method to get access to previous prompt input.\n\n``` js\n  prompt.get([{\n    name: \'name\',\n    description: \'Your name\',\n    type: \'string\',\n    required: true\n  }, {\n    name: \'surname\',\n    description: \'Your surname\',\n    type: \'string\',\n    required: true,\n    message: \'Please dont use the demo credentials\',\n    conform: function(surname) {\n      var name = prompt.history(\'name\').value;\n      return (name !== \'John\' || surname !== \'Smith\');\n    }\n  }], function(err, results) {\n    console.log(results);\n  });\n```\n\n## Customizing your prompt\nAside from changing `property.message`, you can also change `prompt.message`\nand `prompt.delimiter` to change the appearance of your prompt.\n\nThe basic structure of a prompt is this:\n\n``` js\nprompt.message + prompt.delimiter + property.message + prompt.delimiter;\n```\n\nThe default `prompt.message` is "prompt," the default `prompt.delimiter` is\n": ", and the default `property.message` is `property.name`.\nChanging these allows you to customize the appearance of your prompts! In\naddition, prompt supports ANSI color codes via the\n[colors module](https://github.com/Marak/colors.js) for custom colors. For a\nvery colorful example:\n\n``` js\n  var prompt = require("prompt");\n\n  //\n  // Setting these properties customizes the prompt.\n  //\n  prompt.message = "Question!".rainbow;\n  prompt.delimiter = "><".green;\n\n  prompt.start();\n\n  prompt.get({\n    properties: {\n      name: {\n        description: "What is your name?".magenta\n      }\n    }\n  }, function (err, result) {\n    console.log("You said your name is: ".cyan + result.name.cyan);\n  });\n```\n\nIf you don\'t want colors, you can set\n\n```js\nvar prompt = require(\'prompt\');\n\nprompt.colors = false;\n```\n\n## Installation\n\n``` bash\n  $ [sudo] npm install prompt\n```\n\n## Running tests\n\n``` bash\n  $ npm test\n```\n\n#### License: MIT\n#### Author: [Charlie Robbins](http://github.com/indexzero)\n#### Contributors: [Josh Holbrook](http://github.com/jesusabdullah), [Pavan Kumar Sunkara](http://github.com/pksunkara)\n\n[0]: https://github.com/flatiron/prompt/tree/master/examples\n',
+370 silly resolved     readmeFilename: 'README.md',
+370 silly resolved     bugs: { url: 'https://github.com/flatiron/prompt/issues' },
+370 silly resolved     _id: 'prompt@0.2.14',
+370 silly resolved     _from: 'prompt@0.2.x' },
+370 silly resolved   { author:
+370 silly resolved      { name: 'Isaac Z. Schlueter',
+370 silly resolved        email: 'i@izs.me',
+370 silly resolved        url: 'http://blog.izs.me/' },
+370 silly resolved     name: 'tar',
+370 silly resolved     description: 'tar for node',
+370 silly resolved     version: '1.0.3',
+370 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-tar.git' },
+370 silly resolved     main: 'tar.js',
+370 silly resolved     scripts: { test: 'tap test/*.js' },
+370 silly resolved     dependencies: { 'block-stream': '*', fstream: '^1.0.2', inherits: '2' },
+370 silly resolved     devDependencies:
+370 silly resolved      { 'graceful-fs': '^3.0.2',
+370 silly resolved        rimraf: '1.x',
+370 silly resolved        tap: '0.x',
+370 silly resolved        mkdirp: '^0.5.0' },
+370 silly resolved     license: 'BSD',
+370 silly resolved     readme: '# node-tar\n\nTar for Node.js.\n\n[![NPM](https://nodei.co/npm/tar.png)](https://nodei.co/npm/tar/)\n\n## API\n\nSee `examples/` for usage examples.\n\n### var tar = require(\'tar\')\n\nReturns an object with `.Pack`, `.Extract` and `.Parse` methods.\n\n### tar.Pack([properties])\n\nReturns a through stream. Use\n[fstream](https://npmjs.org/package/fstream) to write files into the\npack stream and you will receive tar archive data from the pack\nstream.\n\nThis only works with directories, it does not work with individual files.\n\nThe optional `properties` object are used to set properties in the tar\n\'Global Extended Header\'.\n\n### tar.Extract([options])\n\nReturns a through stream. Write tar data to the stream and the files\nin the tarball will be extracted onto the filesystem.\n\n`options` can be:\n\n```js\n{\n  path: \'/path/to/extract/tar/into\',\n  strip: 0, // how many path segments to strip from the root when extracting\n}\n```\n\n`options` also get passed to the `fstream.Writer` instance that `tar`\nuses internally.\n\n### tar.Parse()\n\nReturns a writable stream. Write tar data to it and it will emit\n`entry` events for each entry parsed from the tarball. This is used by\n`tar.Extract`.\n',
+370 silly resolved     readmeFilename: 'README.md',
+370 silly resolved     bugs: { url: 'https://github.com/isaacs/node-tar/issues' },
+370 silly resolved     _id: 'tar@1.0.3',
+370 silly resolved     _from: 'tar@1.0.x' },
+370 silly resolved   { author: { name: 'Firebase' },
+370 silly resolved     email: 'operations@firebase.com',
+370 silly resolved     name: 'firebase',
+370 silly resolved     description: 'Firebase library for Node.js',
+370 silly resolved     version: '2.1.2',
+370 silly resolved     main: './lib/firebase-node.js',
+370 silly resolved     browser: './lib/firebase-web.js',
+370 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+370 silly resolved     keywords: [ 'Firebase', 'synchronization', 'real-time', 'websocket' ],
+370 silly resolved     dependencies: { 'faye-websocket': '>=0.6.0' },
+370 silly resolved     repository: { type: 'none', url: 'https://www.firebase.com/' },
+370 silly resolved     readme: '# Firebase\n\n## Changelog\n\nThis package\'s changelog can be found here: https://www.firebase.com/docs/web/changelog.html\n\n## Overview\n\n[Firebase](https://www.firebase.com/) provides three key services that enable you to build rich, full-featured applications using just client-side code:\n\n0. **A realtime data API.** Our API replaces the need for most backend databases and server code by handling the heavy lifting of data storage and synchronization.\n\n0. **User management and authentication.** Our Simple Login service handles your user management and authentication needs out-of-the-box. Or, if you prefer to manage users yourself, you can maintain complete control using Custom Login.\n\n0. **Hosting.** With hosting, you can deploy your static website to the internet with a single command.\n\nAll of these services are built for security, reliability, and scale, so you can deploy your applications with confidence.\n\n## Node.js & Firebase\n\nWhile you can write entire Firebase applications without any backend code, many developers will still want to run their own servers. For these developers, we provide a full-featured Node.js module. This library has the same Javascript API and features as our web client.\n\nTo get started, install Firebase using npm:\n\n    npm install firebase\n\nNow, just require the library in your application and start using your data:\n\n    var Firebase = require(\'firebase\');\n    var myRootRef = new Firebase(\'https://myprojectname.firebaseIO-demo.com/\');\n    myRootRef.set("hello world!");\n\n## Next Steps\n\nIf you haven\'t already done so, you should try our [tutorial](https://www.firebase.com/tutorial/index.html#gettingstarted). Next, we recommend checking out our [example apps](https://www.firebase.com/docs/examples.html) or reading on in the [docs](https://www.firebase.com/docs/).\n\n\n\n',
+370 silly resolved     readmeFilename: 'README.md',
+370 silly resolved     _id: 'firebase@2.1.2',
+370 silly resolved     _from: 'firebase@2.1.x' } ]
+371 info install fstream-ignore@1.0.2 into /home/action/workspace/node_modules/firebase-tools
+372 info install open@0.0.5 into /home/action/workspace/node_modules/firebase-tools
+373 info install progress@1.1.8 into /home/action/workspace/node_modules/firebase-tools
+374 info install request@2.51.0 into /home/action/workspace/node_modules/firebase-tools
+375 info install chalk@0.5.1 into /home/action/workspace/node_modules/firebase-tools
+376 info install when@3.6.4 into /home/action/workspace/node_modules/firebase-tools
+377 info install optimist@0.6.1 into /home/action/workspace/node_modules/firebase-tools
+378 info install prompt@0.2.14 into /home/action/workspace/node_modules/firebase-tools
+379 info install tar@1.0.3 into /home/action/workspace/node_modules/firebase-tools
+380 info install firebase@2.1.2 into /home/action/workspace/node_modules/firebase-tools
+381 info installOne fstream-ignore@1.0.2
+382 info installOne open@0.0.5
+383 info installOne progress@1.1.8
+384 info installOne request@2.51.0
+385 info installOne chalk@0.5.1
+386 info installOne when@3.6.4
+387 info installOne optimist@0.6.1
+388 info installOne prompt@0.2.14
+389 info installOne tar@1.0.3
+390 info installOne firebase@2.1.2
+391 verbose from cache /home/action/.npm/fstream-ignore/1.0.2/package/package.json
+392 info /home/action/workspace/node_modules/firebase-tools/node_modules/fstream-ignore unbuild
+393 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/fstream-ignore/package.json
+394 verbose from cache /home/action/.npm/open/0.0.5/package/package.json
+395 info /home/action/workspace/node_modules/firebase-tools/node_modules/open unbuild
+396 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/open/package.json
+397 verbose from cache /home/action/.npm/progress/1.1.8/package/package.json
+398 info /home/action/workspace/node_modules/firebase-tools/node_modules/progress unbuild
+399 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/progress/package.json
+400 verbose from cache /home/action/.npm/request/2.51.0/package/package.json
+401 info /home/action/workspace/node_modules/firebase-tools/node_modules/request unbuild
+402 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/request/package.json
+403 verbose from cache /home/action/.npm/chalk/0.5.1/package/package.json
+404 info /home/action/workspace/node_modules/firebase-tools/node_modules/chalk unbuild
+405 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/chalk/package.json
+406 verbose from cache /home/action/.npm/when/3.6.4/package/package.json
+407 info /home/action/workspace/node_modules/firebase-tools/node_modules/when unbuild
+408 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/when/package.json
+409 verbose from cache /home/action/.npm/optimist/0.6.1/package/package.json
+410 info /home/action/workspace/node_modules/firebase-tools/node_modules/optimist unbuild
+411 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/optimist/package.json
+412 verbose from cache /home/action/.npm/prompt/0.2.14/package/package.json
+413 info /home/action/workspace/node_modules/firebase-tools/node_modules/prompt unbuild
+414 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/prompt/package.json
+415 verbose from cache /home/action/.npm/tar/1.0.3/package/package.json
+416 info /home/action/workspace/node_modules/firebase-tools/node_modules/tar unbuild
+417 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/tar/package.json
+418 verbose from cache /home/action/.npm/firebase/2.1.2/package/package.json
+419 info /home/action/workspace/node_modules/firebase-tools/node_modules/firebase unbuild
+420 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/firebase/package.json
+421 verbose tar unpack /home/action/.npm/fstream-ignore/1.0.2/package.tgz
+422 silly lockFile c5ffbc29-ools-node-modules-fstream-ignore tar:///home/action/workspace/node_modules/firebase-tools/node_modules/fstream-ignore
+423 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/fstream-ignore /home/action/.npm/c5ffbc29-ools-node-modules-fstream-ignore.lock
+424 silly lockFile 67b36fab-fstream-ignore-1-0-2-package-tgz tar:///home/action/.npm/fstream-ignore/1.0.2/package.tgz
+425 verbose lock tar:///home/action/.npm/fstream-ignore/1.0.2/package.tgz /home/action/.npm/67b36fab-fstream-ignore-1-0-2-package-tgz.lock
+426 verbose tar unpack /home/action/.npm/open/0.0.5/package.tgz
+427 silly lockFile b6fe0cc1-firebase-tools-node-modules-open tar:///home/action/workspace/node_modules/firebase-tools/node_modules/open
+428 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/open /home/action/.npm/b6fe0cc1-firebase-tools-node-modules-open.lock
+429 silly lockFile 28bb7cc3-ction-npm-open-0-0-5-package-tgz tar:///home/action/.npm/open/0.0.5/package.tgz
+430 verbose lock tar:///home/action/.npm/open/0.0.5/package.tgz /home/action/.npm/28bb7cc3-ction-npm-open-0-0-5-package-tgz.lock
+431 verbose tar unpack /home/action/.npm/progress/1.1.8/package.tgz
+432 silly lockFile aab61d2a-base-tools-node-modules-progress tar:///home/action/workspace/node_modules/firebase-tools/node_modules/progress
+433 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/progress /home/action/.npm/aab61d2a-base-tools-node-modules-progress.lock
+434 silly lockFile eba14618-n-npm-progress-1-1-8-package-tgz tar:///home/action/.npm/progress/1.1.8/package.tgz
+435 verbose lock tar:///home/action/.npm/progress/1.1.8/package.tgz /home/action/.npm/eba14618-n-npm-progress-1-1-8-package-tgz.lock
+436 verbose tar unpack /home/action/.npm/request/2.51.0/package.tgz
+437 silly lockFile ccf568c1-ebase-tools-node-modules-request tar:///home/action/workspace/node_modules/firebase-tools/node_modules/request
+438 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/request /home/action/.npm/ccf568c1-ebase-tools-node-modules-request.lock
+439 silly lockFile c081396d-n-npm-request-2-51-0-package-tgz tar:///home/action/.npm/request/2.51.0/package.tgz
+440 verbose lock tar:///home/action/.npm/request/2.51.0/package.tgz /home/action/.npm/c081396d-n-npm-request-2-51-0-package-tgz.lock
+441 verbose tar unpack /home/action/.npm/chalk/0.5.1/package.tgz
+442 silly lockFile 83e921a3-irebase-tools-node-modules-chalk tar:///home/action/workspace/node_modules/firebase-tools/node_modules/chalk
+443 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/chalk /home/action/.npm/83e921a3-irebase-tools-node-modules-chalk.lock
+444 silly lockFile 891ac94c-tion-npm-chalk-0-5-1-package-tgz tar:///home/action/.npm/chalk/0.5.1/package.tgz
+445 verbose lock tar:///home/action/.npm/chalk/0.5.1/package.tgz /home/action/.npm/891ac94c-tion-npm-chalk-0-5-1-package-tgz.lock
+446 verbose tar unpack /home/action/.npm/when/3.6.4/package.tgz
+447 silly lockFile 3af6e4eb-firebase-tools-node-modules-when tar:///home/action/workspace/node_modules/firebase-tools/node_modules/when
+448 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/when /home/action/.npm/3af6e4eb-firebase-tools-node-modules-when.lock
+449 silly lockFile eb2d7764-ction-npm-when-3-6-4-package-tgz tar:///home/action/.npm/when/3.6.4/package.tgz
+450 verbose lock tar:///home/action/.npm/when/3.6.4/package.tgz /home/action/.npm/eb2d7764-ction-npm-when-3-6-4-package-tgz.lock
+451 verbose tar unpack /home/action/.npm/optimist/0.6.1/package.tgz
+452 silly lockFile d5be7b5b-base-tools-node-modules-optimist tar:///home/action/workspace/node_modules/firebase-tools/node_modules/optimist
+453 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/optimist /home/action/.npm/d5be7b5b-base-tools-node-modules-optimist.lock
+454 silly lockFile c1488811-n-npm-optimist-0-6-1-package-tgz tar:///home/action/.npm/optimist/0.6.1/package.tgz
+455 verbose lock tar:///home/action/.npm/optimist/0.6.1/package.tgz /home/action/.npm/c1488811-n-npm-optimist-0-6-1-package-tgz.lock
+456 verbose tar unpack /home/action/.npm/prompt/0.2.14/package.tgz
+457 silly lockFile 7d4b2b9b-rebase-tools-node-modules-prompt tar:///home/action/workspace/node_modules/firebase-tools/node_modules/prompt
+458 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/prompt /home/action/.npm/7d4b2b9b-rebase-tools-node-modules-prompt.lock
+459 silly lockFile 5e2e1420-on-npm-prompt-0-2-14-package-tgz tar:///home/action/.npm/prompt/0.2.14/package.tgz
+460 verbose lock tar:///home/action/.npm/prompt/0.2.14/package.tgz /home/action/.npm/5e2e1420-on-npm-prompt-0-2-14-package-tgz.lock
+461 verbose tar unpack /home/action/.npm/tar/1.0.3/package.tgz
+462 silly lockFile 3264cb27--firebase-tools-node-modules-tar tar:///home/action/workspace/node_modules/firebase-tools/node_modules/tar
+463 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/tar /home/action/.npm/3264cb27--firebase-tools-node-modules-tar.lock
+464 silly lockFile 0a05e219-action-npm-tar-1-0-3-package-tgz tar:///home/action/.npm/tar/1.0.3/package.tgz
+465 verbose lock tar:///home/action/.npm/tar/1.0.3/package.tgz /home/action/.npm/0a05e219-action-npm-tar-1-0-3-package-tgz.lock
+466 verbose tar unpack /home/action/.npm/firebase/2.1.2/package.tgz
+467 silly lockFile d6ceff79-base-tools-node-modules-firebase tar:///home/action/workspace/node_modules/firebase-tools/node_modules/firebase
+468 verbose lock tar:///home/action/workspace/node_modules/firebase-tools/node_modules/firebase /home/action/.npm/d6ceff79-base-tools-node-modules-firebase.lock
+469 silly lockFile 429d049d-n-npm-firebase-2-1-2-package-tgz tar:///home/action/.npm/firebase/2.1.2/package.tgz
+470 verbose lock tar:///home/action/.npm/firebase/2.1.2/package.tgz /home/action/.npm/429d049d-n-npm-firebase-2-1-2-package-tgz.lock
+471 silly gunzTarPerm modes [ '755', '644' ]
+472 silly gunzTarPerm modes [ '755', '644' ]
+473 silly gunzTarPerm modes [ '755', '644' ]
+474 silly gunzTarPerm modes [ '755', '644' ]
+475 silly gunzTarPerm modes [ '755', '644' ]
+476 silly gunzTarPerm modes [ '755', '644' ]
+477 silly gunzTarPerm modes [ '755', '644' ]
+478 silly gunzTarPerm modes [ '755', '644' ]
+479 silly gunzTarPerm modes [ '755', '644' ]
+480 silly gunzTarPerm modes [ '755', '644' ]
+481 silly gunzTarPerm extractEntry package.json
+482 silly gunzTarPerm extractEntry package.json
+483 silly gunzTarPerm extractEntry package.json
+484 silly gunzTarPerm extractEntry package.json
+485 silly gunzTarPerm extractEntry package.json
+486 silly gunzTarPerm extractEntry .npmignore
+487 silly gunzTarPerm extractEntry README.md
+488 silly gunzTarPerm extractEntry package.json
+489 silly gunzTarPerm extractEntry package.json
+490 silly gunzTarPerm extractEntry package.json
+491 silly gunzTarPerm extractEntry package.json
+492 silly gunzTarPerm extractEntry package.json
+493 silly gunzTarPerm extractEntry .npmignore
+494 silly gunzTarPerm extractEntry README.md
+495 silly gunzTarPerm extractEntry .npmignore
+496 silly gunzTarPerm extractEntry LICENSE
+497 silly gunzTarPerm extractEntry index.js
+498 silly gunzTarPerm extractEntry readme.md
+499 silly gunzTarPerm extractEntry README.md
+500 silly gunzTarPerm extractEntry function.js
+501 silly gunzTarPerm extractEntry .npmignore
+502 silly gunzTarPerm extractEntry README.md
+503 silly gunzTarPerm extractEntry LICENSE
+504 silly gunzTarPerm extractEntry index.js
+505 silly gunzTarPerm extractEntry .npmignore
+506 silly gunzTarPerm extractEntry README.md
+507 silly gunzTarPerm extractEntry .npmignore
+508 silly gunzTarPerm extractEntry README.md
+509 silly gunzTarPerm extractEntry README.md
+510 silly gunzTarPerm extractEntry lib/README
+511 silly gunzTarPerm extractEntry LICENSE
+512 silly gunzTarPerm extractEntry ignore.js
+513 silly gunzTarPerm extractEntry index.js
+514 silly gunzTarPerm extractEntry History.md
+515 silly gunzTarPerm extractEntry LICENSE
+516 silly gunzTarPerm extractEntry .jshintignore
+517 silly gunzTarPerm extractEntry generator.js
+518 silly gunzTarPerm extractEntry guard.js
+519 silly gunzTarPerm extractEntry .travis.yml
+520 silly gunzTarPerm extractEntry example/bool.js
+521 silly gunzTarPerm extractEntry LICENCE
+522 silly gunzTarPerm extractEntry tar.js
+523 silly gunzTarPerm extractEntry LICENSE
+524 silly gunzTarPerm extractEntry .jshintrc
+525 silly gunzTarPerm extractEntry lib/firebase-node.js
+526 silly gunzTarPerm extractEntry lib/firebase-web.js
+527 silly gunzTarPerm extractEntry LICENSE
+528 silly gunzTarPerm extractEntry example/basic.js
+529 silly gunzTarPerm extractEntry test/.npmignore
+530 silly gunzTarPerm extractEntry Makefile
+531 silly gunzTarPerm extractEntry Readme.md
+532 silly gunzTarPerm extractEntry .jshintrc
+533 silly gunzTarPerm extractEntry lib/open.js
+534 silly gunzTarPerm extractEntry .travis.yml
+535 silly gunzTarPerm extractEntry examples/extracter.js
+536 silly gunzTarPerm extractEntry .travis.yml
+537 silly gunzTarPerm extractEntry docs/docco.css
+538 silly gunzTarPerm extractEntry docs/prompt.html
+539 silly gunzTarPerm extractEntry examples/add-properties.js
+540 silly gunzTarPerm extractEntry examples/history.js
+541 silly gunzTarPerm extractEntry examples/nested-properties-prompt.js
+542 silly gunzTarPerm extractEntry examples/old-schema.js
+543 silly gunzTarPerm extractEntry examples/existing-properties.js
+544 silly gunzTarPerm extractEntry examples/password.js
+545 silly gunzTarPerm extractEntry examples/prompt-override.js
+546 silly gunzTarPerm extractEntry examples/property-prompt.js
+547 silly gunzTarPerm extractEntry examples/simple-prompt.js
+548 silly gunzTarPerm extractEntry examples/yes-or-no-prompt.js
+549 silly gunzTarPerm extractEntry examples/override-validation.js
+550 silly gunzTarPerm extractEntry lib/prompt.js
+551 silly gunzTarPerm extractEntry CHANGELOG.md
+552 silly gunzTarPerm extractEntry test/helpers.js
+553 silly gunzTarPerm extractEntry test/interactive-prompt-test.js
+554 silly gunzTarPerm extractEntry test/macros.js
+555 silly gunzTarPerm extractEntry test/prompt-test.js
+556 silly gunzTarPerm extractEntry example/default_singles.js
+557 silly gunzTarPerm extractEntry example/divide.js
+558 silly gunzTarPerm extractEntry example/line_count.js
+559 silly gunzTarPerm extractEntry example/default_hash.js
+560 silly gunzTarPerm extractEntry example/line_count_wrap.js
+561 silly gunzTarPerm extractEntry example/nonopt.js
+562 silly gunzTarPerm extractEntry example/reflect.js
+563 silly gunzTarPerm extractEntry example/short.js
+564 silly gunzTarPerm extractEntry example/string.js
+565 silly gunzTarPerm extractEntry example/boolean_single.js
+566 silly gunzTarPerm extractEntry example/usage-options.js
+567 silly gunzTarPerm extractEntry example/boolean_double.js
+568 silly gunzTarPerm extractEntry example/xup.js
+569 silly gunzTarPerm extractEntry example/line_count_options.js
+570 silly gunzTarPerm extractEntry readme.markdown
+571 silly gunzTarPerm extractEntry test/_.js
+572 silly gunzTarPerm extractEntry test/dash.js
+573 silly gunzTarPerm extractEntry test/parse.js
+574 silly gunzTarPerm extractEntry test/parse_modified.js
+575 silly gunzTarPerm extractEntry test/short.js
+576 silly gunzTarPerm extractEntry test/usage.js
+577 silly gunzTarPerm extractEntry test/whitespace.js
+578 silly gunzTarPerm extractEntry test/_/argv.js
+579 silly gunzTarPerm extractEntry test/_/bin.js
+580 silly gunzTarPerm extractEntry request.js
+581 silly gunzTarPerm extractEntry index.js
+582 silly gunzTarPerm extractEntry test/00-setup.js
+583 silly gunzTarPerm extractEntry test/basic.js
+584 silly gunzTarPerm extractEntry test/common.js
+585 silly gunzTarPerm extractEntry test/ignore-most.js
+586 silly gunzTarPerm extractEntry test/nested-ignores.js
+587 silly gunzTarPerm extractEntry test/read-file-order.js
+588 silly gunzTarPerm extractEntry test/unignore-child.js
+589 silly gunzTarPerm extractEntry test/zz-cleanup.js
+590 silly gunzTarPerm extractEntry test/.ignore
+591 silly gunzTarPerm extractEntry unfold.js
+592 silly gunzTarPerm extractEntry vendor/xdg-open
+593 silly gunzTarPerm extractEntry lib/node-progress.js
+594 silly gunzTarPerm extractEntry examples/packer.js
+595 silly gunzTarPerm extractEntry examples/reader.js
+596 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/chalk/package.json
+597 silly gunzTarPerm extractEntry lib/buffer-entry.js
+598 silly gunzTarPerm extractEntry timeout.js
+599 silly gunzTarPerm extractEntry sequence.js
+600 silly lockFile 83e921a3-irebase-tools-node-modules-chalk tar:///home/action/workspace/node_modules/firebase-tools/node_modules/chalk
+601 silly lockFile 83e921a3-irebase-tools-node-modules-chalk tar:///home/action/workspace/node_modules/firebase-tools/node_modules/chalk
+602 silly lockFile 891ac94c-tion-npm-chalk-0-5-1-package-tgz tar:///home/action/.npm/chalk/0.5.1/package.tgz
+603 silly lockFile 891ac94c-tion-npm-chalk-0-5-1-package-tgz tar:///home/action/.npm/chalk/0.5.1/package.tgz
+604 info preinstall chalk@0.5.1
+605 silly gunzTarPerm extractEntry poll.js
+606 silly gunzTarPerm extractEntry node.js
+607 verbose from cache /home/action/workspace/node_modules/firebase-tools/node_modules/chalk/package.json
+608 verbose readDependencies using package.json deps
+609 verbose from cache /home/action/workspace/node_modules/firebase-tools/node_modules/chalk/package.json
+610 verbose readDependencies using package.json deps
+611 silly gunzTarPerm extractEntry lib/entry-writer.js
+612 silly gunzTarPerm extractEntry lib/entry.js
+613 verbose cache add [ 'supports-color@^0.2.0', null ]
+614 verbose cache add name=undefined spec="supports-color@^0.2.0" args=["supports-color@^0.2.0",null]
+615 verbose parsed url { protocol: null,
+615 verbose parsed url   slashes: null,
+615 verbose parsed url   auth: null,
+615 verbose parsed url   host: null,
+615 verbose parsed url   port: null,
+615 verbose parsed url   hostname: null,
+615 verbose parsed url   hash: null,
+615 verbose parsed url   search: null,
+615 verbose parsed url   query: null,
+615 verbose parsed url   pathname: 'supports-color@^0.2.0',
+615 verbose parsed url   path: 'supports-color@^0.2.0',
+615 verbose parsed url   href: 'supports-color@^0.2.0' }
+616 verbose cache add name="supports-color" spec="^0.2.0" args=["supports-color","^0.2.0"]
+617 verbose parsed url { protocol: null,
+617 verbose parsed url   slashes: null,
+617 verbose parsed url   auth: null,
+617 verbose parsed url   host: null,
+617 verbose parsed url   port: null,
+617 verbose parsed url   hostname: null,
+617 verbose parsed url   hash: null,
+617 verbose parsed url   search: null,
+617 verbose parsed url   query: null,
+617 verbose parsed url   pathname: '^0.2.0',
+617 verbose parsed url   path: '^0.2.0',
+617 verbose parsed url   href: '^0.2.0' }
+618 verbose addNamed [ 'supports-color', '^0.2.0' ]
+619 verbose addNamed [ null, null ]
+620 silly lockFile e3aa172d-supports-color-0-2-0 supports-color@^0.2.0
+621 verbose lock supports-color@^0.2.0 /home/action/.npm/e3aa172d-supports-color-0-2-0.lock
+622 info addNameTag [ 'supports-color', '^0.2.0' ]
+623 silly gunzTarPerm extractEntry lib/extended-header-writer.js
+624 silly gunzTarPerm extractEntry lib/extended-header.js
+625 verbose cache add [ 'ansi-styles@^1.1.0', null ]
+626 verbose cache add name=undefined spec="ansi-styles@^1.1.0" args=["ansi-styles@^1.1.0",null]
+627 verbose parsed url { protocol: null,
+627 verbose parsed url   slashes: null,
+627 verbose parsed url   auth: null,
+627 verbose parsed url   host: null,
+627 verbose parsed url   port: null,
+627 verbose parsed url   hostname: null,
+627 verbose parsed url   hash: null,
+627 verbose parsed url   search: null,
+627 verbose parsed url   query: null,
+627 verbose parsed url   pathname: 'ansi-styles@^1.1.0',
+627 verbose parsed url   path: 'ansi-styles@^1.1.0',
+627 verbose parsed url   href: 'ansi-styles@^1.1.0' }
+628 verbose cache add name="ansi-styles" spec="^1.1.0" args=["ansi-styles","^1.1.0"]
+629 verbose parsed url { protocol: null,
+629 verbose parsed url   slashes: null,
+629 verbose parsed url   auth: null,
+629 verbose parsed url   host: null,
+629 verbose parsed url   port: null,
+629 verbose parsed url   hostname: null,
+629 verbose parsed url   hash: null,
+629 verbose parsed url   search: null,
+629 verbose parsed url   query: null,
+629 verbose parsed url   pathname: '^1.1.0',
+629 verbose parsed url   path: '^1.1.0',
+629 verbose parsed url   href: '^1.1.0' }
+630 verbose addNamed [ 'ansi-styles', '^1.1.0' ]
+631 verbose addNamed [ null, null ]
+632 silly lockFile f531fbfe-ansi-styles-1-1-0 ansi-styles@^1.1.0
+633 verbose lock ansi-styles@^1.1.0 /home/action/.npm/f531fbfe-ansi-styles-1-1-0.lock
+634 verbose cache add [ 'escape-string-regexp@^1.0.0', null ]
+635 verbose cache add name=undefined spec="escape-string-regexp@^1.0.0" args=["escape-string-regexp@^1.0.0",null]
+636 verbose parsed url { protocol: null,
+636 verbose parsed url   slashes: null,
+636 verbose parsed url   auth: null,
+636 verbose parsed url   host: null,
+636 verbose parsed url   port: null,
+636 verbose parsed url   hostname: null,
+636 verbose parsed url   hash: null,
+636 verbose parsed url   search: null,
+636 verbose parsed url   query: null,
+636 verbose parsed url   pathname: 'escape-string-regexp@^1.0.0',
+636 verbose parsed url   path: 'escape-string-regexp@^1.0.0',
+636 verbose parsed url   href: 'escape-string-regexp@^1.0.0' }
+637 verbose cache add name="escape-string-regexp" spec="^1.0.0" args=["escape-string-regexp","^1.0.0"]
+638 verbose parsed url { protocol: null,
+638 verbose parsed url   slashes: null,
+638 verbose parsed url   auth: null,
+638 verbose parsed url   host: null,
+638 verbose parsed url   port: null,
+638 verbose parsed url   hostname: null,
+638 verbose parsed url   hash: null,
+638 verbose parsed url   search: null,
+638 verbose parsed url   query: null,
+638 verbose parsed url   pathname: '^1.0.0',
+638 verbose parsed url   path: '^1.0.0',
+638 verbose parsed url   href: '^1.0.0' }
+639 verbose addNamed [ 'escape-string-regexp', '^1.0.0' ]
+640 verbose addNamed [ null, null ]
+641 silly lockFile 9f5f1582-escape-string-regexp-1-0-0 escape-string-regexp@^1.0.0
+642 verbose lock escape-string-regexp@^1.0.0 /home/action/.npm/9f5f1582-escape-string-regexp-1-0-0.lock
+643 silly gunzTarPerm extractEntry delay.js
+644 silly gunzTarPerm extractEntry when.js
+645 info addNameTag [ 'ansi-styles', '^1.1.0' ]
+646 verbose cache add [ 'has-ansi@^0.1.0', null ]
+647 verbose cache add name=undefined spec="has-ansi@^0.1.0" args=["has-ansi@^0.1.0",null]
+648 verbose parsed url { protocol: null,
+648 verbose parsed url   slashes: null,
+648 verbose parsed url   auth: null,
+648 verbose parsed url   host: null,
+648 verbose parsed url   port: null,
+648 verbose parsed url   hostname: null,
+648 verbose parsed url   hash: null,
+648 verbose parsed url   search: null,
+648 verbose parsed url   query: null,
+648 verbose parsed url   pathname: 'has-ansi@^0.1.0',
+648 verbose parsed url   path: 'has-ansi@^0.1.0',
+648 verbose parsed url   href: 'has-ansi@^0.1.0' }
+649 verbose cache add name="has-ansi" spec="^0.1.0" args=["has-ansi","^0.1.0"]
+650 verbose parsed url { protocol: null,
+650 verbose parsed url   slashes: null,
+650 verbose parsed url   auth: null,
+650 verbose parsed url   host: null,
+650 verbose parsed url   port: null,
+650 verbose parsed url   hostname: null,
+650 verbose parsed url   hash: null,
+650 verbose parsed url   search: null,
+650 verbose parsed url   query: null,
+650 verbose parsed url   pathname: '^0.1.0',
+650 verbose parsed url   path: '^0.1.0',
+650 verbose parsed url   href: '^0.1.0' }
+651 verbose addNamed [ 'has-ansi', '^0.1.0' ]
+652 verbose addNamed [ null, null ]
+653 silly lockFile 67e902d7-has-ansi-0-1-0 has-ansi@^0.1.0
+654 verbose lock has-ansi@^0.1.0 /home/action/.npm/67e902d7-has-ansi-0-1-0.lock
+655 verbose cache add [ 'strip-ansi@^0.3.0', null ]
+656 verbose cache add name=undefined spec="strip-ansi@^0.3.0" args=["strip-ansi@^0.3.0",null]
+657 verbose parsed url { protocol: null,
+657 verbose parsed url   slashes: null,
+657 verbose parsed url   auth: null,
+657 verbose parsed url   host: null,
+657 verbose parsed url   port: null,
+657 verbose parsed url   hostname: null,
+657 verbose parsed url   hash: null,
+657 verbose parsed url   search: null,
+657 verbose parsed url   query: null,
+657 verbose parsed url   pathname: 'strip-ansi@^0.3.0',
+657 verbose parsed url   path: 'strip-ansi@^0.3.0',
+657 verbose parsed url   href: 'strip-ansi@^0.3.0' }
+658 verbose cache add name="strip-ansi" spec="^0.3.0" args=["strip-ansi","^0.3.0"]
+659 verbose parsed url { protocol: null,
+659 verbose parsed url   slashes: null,
+659 verbose parsed url   auth: null,
+659 verbose parsed url   host: null,
+659 verbose parsed url   port: null,
+659 verbose parsed url   hostname: null,
+659 verbose parsed url   hash: null,
+659 verbose parsed url   search: null,
+659 verbose parsed url   query: null,
+659 verbose parsed url   pathname: '^0.3.0',
+659 verbose parsed url   path: '^0.3.0',
+659 verbose parsed url   href: '^0.3.0' }
+660 verbose addNamed [ 'strip-ansi', '^0.3.0' ]
+661 verbose addNamed [ null, null ]
+662 silly lockFile 3a64cb31-strip-ansi-0-3-0 strip-ansi@^0.3.0
+663 verbose lock strip-ansi@^0.3.0 /home/action/.npm/3a64cb31-strip-ansi-0-3-0.lock
+664 info addNameTag [ 'escape-string-regexp', '^1.0.0' ]
+665 info addNameTag [ 'has-ansi', '^0.1.0' ]
+666 info addNameTag [ 'strip-ansi', '^0.3.0' ]
+667 verbose url raw supports-color
+668 verbose url resolving [ 'https://registry.npmjs.org/', './supports-color' ]
+669 verbose url resolved https://registry.npmjs.org/supports-color
+670 info trying registry request attempt 1 at 23:15:37
+671 verbose etag "36KBGWSMRMHDOZ4PK9ZTOKGU2"
+672 http GET https://registry.npmjs.org/supports-color
+673 verbose url raw ansi-styles
+674 verbose url resolving [ 'https://registry.npmjs.org/', './ansi-styles' ]
+675 verbose url resolved https://registry.npmjs.org/ansi-styles
+676 info trying registry request attempt 1 at 23:15:37
+677 verbose etag "4P4QAIRR5K0ERJM8X68B42JDZ"
+678 http GET https://registry.npmjs.org/ansi-styles
+679 verbose url raw escape-string-regexp
+680 verbose url resolving [ 'https://registry.npmjs.org/', './escape-string-regexp' ]
+681 verbose url resolved https://registry.npmjs.org/escape-string-regexp
+682 info trying registry request attempt 1 at 23:15:37
+683 verbose etag "1XZT1CURE7OAIRT3K4DAB1R17"
+684 http GET https://registry.npmjs.org/escape-string-regexp
+685 verbose url raw has-ansi
+686 verbose url resolving [ 'https://registry.npmjs.org/', './has-ansi' ]
+687 verbose url resolved https://registry.npmjs.org/has-ansi
+688 info trying registry request attempt 1 at 23:15:37
+689 verbose etag "3MTIM7NX1DM9YH3FIBBH2RQYX"
+690 http GET https://registry.npmjs.org/has-ansi
+691 verbose url raw strip-ansi
+692 verbose url resolving [ 'https://registry.npmjs.org/', './strip-ansi' ]
+693 verbose url resolved https://registry.npmjs.org/strip-ansi
+694 info trying registry request attempt 1 at 23:15:37
+695 verbose etag "AQCEDFO4TRSYKIA5CJEEMGWQI"
+696 http GET https://registry.npmjs.org/strip-ansi
+697 silly gunzTarPerm extractEntry cancelable.js
+698 silly gunzTarPerm extractEntry parallel.js
+699 silly gunzTarPerm extractEntry lib/extract.js
+700 silly gunzTarPerm extractEntry lib/global-header-writer.js
+701 http 304 https://registry.npmjs.org/supports-color
+702 silly registry.get cb [ 304,
+702 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+702 silly registry.get     server: 'Apache',
+702 silly registry.get     via: '1.1 varnish',
+702 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+702 silly registry.get     'cache-control': 'max-age=60',
+702 silly registry.get     etag: '"36KBGWSMRMHDOZ4PK9ZTOKGU2"',
+702 silly registry.get     age: '28',
+702 silly registry.get     'x-served-by': 'cache-iad2124-IAD',
+702 silly registry.get     'x-cache': 'HIT',
+702 silly registry.get     'x-cache-hits': '1',
+702 silly registry.get     'x-timer': 'S1425251737.846129,VS0,VE0',
+702 silly registry.get     vary: 'Accept',
+702 silly registry.get     'content-length': '0',
+702 silly registry.get     'keep-alive': 'timeout=10, max=50',
+702 silly registry.get     connection: 'Keep-Alive' } ]
+703 verbose etag supports-color from cache
+704 silly gunzTarPerm extractEntry lib/header.js
+705 silly gunzTarPerm extractEntry lib/pack.js
+706 silly gunzTarPerm extractEntry callbacks.js
+707 silly gunzTarPerm extractEntry pipeline.js
+708 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/progress/package.json
+709 http 304 https://registry.npmjs.org/strip-ansi
+710 silly registry.get cb [ 304,
+710 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+710 silly registry.get     server: 'Apache',
+710 silly registry.get     via: '1.1 varnish',
+710 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+710 silly registry.get     'cache-control': 'max-age=60',
+710 silly registry.get     etag: '"AQCEDFO4TRSYKIA5CJEEMGWQI"',
+710 silly registry.get     age: '31',
+710 silly registry.get     'x-served-by': 'cache-iad2130-IAD',
+710 silly registry.get     'x-cache': 'HIT',
+710 silly registry.get     'x-cache-hits': '1',
+710 silly registry.get     'x-timer': 'S1425251737.878609,VS0,VE0',
+710 silly registry.get     vary: 'Accept',
+710 silly registry.get     'content-length': '0',
+710 silly registry.get     'keep-alive': 'timeout=10, max=50',
+710 silly registry.get     connection: 'Keep-Alive' } ]
+711 verbose etag strip-ansi from cache
+712 http 304 https://registry.npmjs.org/escape-string-regexp
+713 silly registry.get cb [ 304,
+713 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+713 silly registry.get     server: 'Apache',
+713 silly registry.get     via: '1.1 varnish',
+713 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:37 GMT',
+713 silly registry.get     'cache-control': 'max-age=60',
+713 silly registry.get     etag: '"1XZT1CURE7OAIRT3K4DAB1R17"',
+713 silly registry.get     age: '31',
+713 silly registry.get     'x-served-by': 'cache-iad2125-IAD',
+713 silly registry.get     'x-cache': 'HIT',
+713 silly registry.get     'x-cache-hits': '1',
+713 silly registry.get     'x-timer': 'S1425251737.882800,VS0,VE0',
+713 silly registry.get     vary: 'Accept',
+713 silly registry.get     'content-length': '0',
+713 silly registry.get     'keep-alive': 'timeout=10, max=50',
+713 silly registry.get     connection: 'Keep-Alive' } ]
+714 verbose etag escape-string-regexp from cache
+715 http 304 https://registry.npmjs.org/ansi-styles
+716 silly registry.get cb [ 304,
+716 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+716 silly registry.get     server: 'Apache',
+716 silly registry.get     via: '1.1 varnish',
+716 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:15:00 GMT',
+716 silly registry.get     'cache-control': 'max-age=60',
+716 silly registry.get     etag: '"4P4QAIRR5K0ERJM8X68B42JDZ"',
+716 silly registry.get     age: '40',
+716 silly registry.get     'x-served-by': 'cache-iad2132-IAD',
+716 silly registry.get     'x-cache': 'HIT',
+716 silly registry.get     'x-cache-hits': '5',
+716 silly registry.get     'x-timer': 'S1425251737.878330,VS0,VE0',
+716 silly registry.get     vary: 'Accept',
+716 silly registry.get     'content-length': '0',
+716 silly registry.get     'keep-alive': 'timeout=10, max=50',
+716 silly registry.get     connection: 'Keep-Alive' } ]
+717 verbose etag ansi-styles from cache
+718 http 304 https://registry.npmjs.org/has-ansi
+719 silly registry.get cb [ 304,
+719 silly registry.get   { date: 'Sun, 01 Mar 2015 23:15:37 GMT',
+719 silly registry.get     server: 'Apache',
+719 silly registry.get     via: '1.1 varnish',
+719 silly registry.get     'last-modified': 'Sun, 01 Mar 2015 23:14:53 GMT',
+719 silly registry.get     'cache-control': 'max-age=60',
+719 silly registry.get     etag: '"3MTIM7NX1DM9YH3FIBBH2RQYX"',
+719 silly registry.get     age: '50',
+719 silly registry.get     'x-served-by': 'cache-iad2120-IAD',
+719 silly registry.get     'x-cache': 'HIT',
+719 silly registry.get     'x-cache-hits': '4',
+719 silly registry.get     'x-timer': 'S1425251737.880936,VS0,VE0',
+719 silly registry.get     vary: 'Accept',
+719 silly registry.get     'content-length': '0',
+719 silly registry.get     'keep-alive': 'timeout=10, max=50',
+719 silly registry.get     connection: 'Keep-Alive' } ]
+720 verbose etag has-ansi from cache
+721 silly lockFile e3aa172d-supports-color-0-2-0 supports-color@^0.2.0
+722 silly lockFile e3aa172d-supports-color-0-2-0 supports-color@^0.2.0
+723 silly gunzTarPerm extractEntry lib/parse.js
+724 silly gunzTarPerm extractEntry test/00-setup-fixtures.js
+725 verbose about to build /home/action/workspace/node_modules/firebase-tools/node_modules/chalk
+726 info /home/action/workspace/node_modules/firebase-tools/node_modules/chalk unbuild
+727 verbose from cache /home/action/workspace/node_modules/firebase-tools/node_modules/chalk/package.json
+728 info preuninstall chalk@0.5.1
+729 silly lockFile 3a64cb31-strip-ansi-0-3-0 strip-ansi@^0.3.0
+730 silly lockFile 3a64cb31-strip-ansi-0-3-0 strip-ansi@^0.3.0
+731 silly lockFile 9f5f1582-escape-string-regexp-1-0-0 escape-string-regexp@^1.0.0
+732 silly lockFile 9f5f1582-escape-string-regexp-1-0-0 escape-string-regexp@^1.0.0
+733 silly lockFile f531fbfe-ansi-styles-1-1-0 ansi-styles@^1.1.0
+734 silly lockFile f531fbfe-ansi-styles-1-1-0 ansi-styles@^1.1.0
+735 silly gunzTarPerm extractEntry .travis.yml
+736 silly gunzTarPerm extractEntry CHANGELOG.md
+737 info uninstall chalk@0.5.1
+738 silly lockFile 67e902d7-has-ansi-0-1-0 has-ansi@^0.1.0
+739 silly lockFile 67e902d7-has-ansi-0-1-0 has-ansi@^0.1.0
+740 silly gunzTarPerm extractEntry keys.js
+741 silly gunzTarPerm extractEntry monitor.js
+742 silly lockFile aab61d2a-base-tools-node-modules-progress tar:///home/action/workspace/node_modules/firebase-tools/node_modules/progress
+743 silly lockFile aab61d2a-base-tools-node-modules-progress tar:///home/action/workspace/node_modules/firebase-tools/node_modules/progress
+744 verbose false,/home/action/workspace/node_modules,/home/action/workspace/node_modules/firebase-tools/node_modules unbuild chalk@0.5.1
+745 info postuninstall chalk@0.5.1
+746 silly lockFile eba14618-n-npm-progress-1-1-8-package-tgz tar:///home/action/.npm/progress/1.1.8/package.tgz
+747 silly lockFile eba14618-n-npm-progress-1-1-8-package-tgz tar:///home/action/.npm/progress/1.1.8/package.tgz
+748 info preinstall progress@1.1.8
+749 silly gunzTarPerm extractEntry test/extract-move.js
+750 silly gunzTarPerm extractEntry test/extract.js
+751 verbose about to build /home/action/workspace/node_modules/firebase-tools
+752 info /home/action/workspace/node_modules/firebase-tools unbuild
+753 verbose from cache /home/action/workspace/node_modules/firebase-tools/package.json
+754 info preuninstall firebase-tools@1.1.5
+755 verbose from cache /home/action/workspace/node_modules/firebase-tools/node_modules/progress/package.json
+756 verbose readDependencies using package.json deps
+757 verbose from cache /home/action/workspace/node_modules/firebase-tools/node_modules/progress/package.json
+758 info uninstall firebase-tools@1.1.5
+759 verbose readDependencies using package.json deps
+760 silly resolved []
+761 verbose about to build /home/action/workspace/node_modules/firebase-tools/node_modules/progress
+762 info build /home/action/workspace/node_modules/firebase-tools/node_modules/progress
+763 verbose from cache /home/action/workspace/node_modules/firebase-tools/node_modules/progress/package.json
+764 verbose linkStuff [ false,
+764 verbose linkStuff   false,
+764 verbose linkStuff   false,
+764 verbose linkStuff   '/home/action/workspace/node_modules/firebase-tools/node_modules' ]
+765 info linkStuff progress@1.1.8
+766 verbose read json /home/action/workspace/fbase/package.json
+767 verbose true,/home/action/workspace/node_modules,/home/action/workspace/node_modules unbuild firebase-tools@1.1.5
+768 verbose /home/action/workspace/node_modules/.bin,[object Object] binRoot
+769 silly gunzTarPerm extractEntry node/function.js
+770 silly gunzTarPerm extractEntry monitor/README.md
+771 verbose linkBins progress@1.1.8
+772 verbose linkMans progress@1.1.8
+773 verbose rebuildBundles progress@1.1.8
+774 info install progress@1.1.8
+775 info postuninstall firebase-tools@1.1.5
+776 verbose read json /home/action/workspace/node_modules/firebase-tools/node_modules/open/package.json
+777 info postinstall progress@1.1.8
+778 silly gunzTarPerm extractEntry test/header.js
+779 silly gunzTarPerm extractEntry test/pack-no-proprietary.js
+780 silly gunzTarPerm extractEntry examples/README.md
+781 silly gunzTarPerm extractEntry CONTRIBUTING.md
+782 silly lockFile b6fe0cc1-firebase-tools-node-modules-open tar:///home/action/workspace/node_modules/firebase-tools/node_modules/open
+783 silly lockFile b6fe0cc1-firebase-tools-node-modules-open tar:///home/action/workspace/node_modules/firebase-tools/node_modules/open
+784 silly lockFile 28bb7cc3-ction-npm-open-0-0-5-package-tgz tar:///home/action/.npm/open/0.0.5/package.tgz
+785 silly lockFile 28bb7cc3-ction-npm-open-0-0-5-package-tgz tar:///home/action/.npm/open/0.0.5/package.tgz
+786 error error rolling back Error: ENOTEMPTY, rmdir '/home/action/workspace/node_modules/firebase-tools/node_modules/fstream-ignore/test'
+786 error error rolling back  firebase-tools@1.1.5 { [Error: ENOTEMPTY, rmdir '/home/action/workspace/node_modules/firebase-tools/node_modules/fstream-ignore/test']
+786 error error rolling back   errno: 53,
+786 error error rolling back   code: 'ENOTEMPTY',
+786 error error rolling back   path: '/home/action/workspace/node_modules/firebase-tools/node_modules/fstream-ignore/test' }
+787 error Error: No compatible version found: supports-color@'^0.2.0'
+787 error Valid install targets:
+787 error ["0.2.0","1.0.0","1.1.0","1.2.0","1.2.1","1.3.0"]
+787 error     at installTargetsError (/home/action/.nvm/v0.10.11/lib/node_modules/npm/lib/cache.js:719:10)
+787 error     at /home/action/.nvm/v0.10.11/lib/node_modules/npm/lib/cache.js:641:10
+787 error     at saved (/home/action/.nvm/v0.10.11/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+787 error     at Object.oncomplete (fs.js:107:15)
+788 error If you need help, you may report this log at:
+788 error     <http://github.com/isaacs/npm/issues>
+788 error or email it to:
+788 error     <npm-@googlegroups.com>
+789 error System Linux 3.13.4
+790 error command "/home/action/.nvm/v0.10.11/bin/node" "/home/action/.nvm/v0.10.11/bin/npm" "install" "firebase-tools"
+791 error cwd /home/action/workspace/fbase
+792 error node -v v0.10.11
+793 error npm -v 1.2.30
+794 verbose exit [ 1, true ]
