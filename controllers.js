@@ -10,14 +10,3 @@ app.controller("SampleCtrl", function($scope, $firebase) {
   }
 });
 
-app.controller("SampleCtrl", ["$scope", "$firebaseAuth",
-  function($scope, $firebaseAuth) {
-    var ref = new Firebase("https://bgordon.firebaseio.com/");
-    var auth = $firebaseAuth(ref);
-    auth.$authWithOAuthPopup("facebook").then(function(authData) {
-      console.log("Logged in as:", authData.uid);
-    }).catch(function(error) {
-      console.error("Authentication failed: ", error);
-    });
-  }
-]);
