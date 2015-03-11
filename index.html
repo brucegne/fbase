@@ -10,7 +10,6 @@
       <li ng-repeat="message in messages">
         <!-- exit a message -->
         <span>{{$id}}</span>
-        <input ng-model="message.$id" />
         <input ng-model="message.text" ng-change="messages.$save(message)" />
         <input ng-model="message.balance" ng-change="messages.$save(message)" />
 
