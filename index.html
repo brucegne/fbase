@@ -5,7 +5,11 @@
     <script src="https://cdn.firebase.com/libs/angularfire/0.9.2/angularfire.min.js"></script>
     <script src="controllers.js"></script>
   </head>
-  <body ng-controller="SampleCtrl">
+  <body>
+    <div ng-controller="AuthCtrl">
+      <input type="button" ng-click="login()" value="Login" />
+    </div>    
+    <div ng-controller="SampleCtrl">
     <ul>
       <li ng-repeat="message in messages">
         <!-- exit a message -->
@@ -25,5 +29,6 @@
       <input type="number" ng-model="newMessageBalance" />
       <button type="submit">add message</button>
     </form>
+    </div>
   </body>
 </html>
