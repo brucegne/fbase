@@ -19,7 +19,7 @@ app.controller('AuthCtrl', function ($scope, $firebaseAuth) {
     $scope.num = 'logging in';
     $scope.auth.$authWithPassword({
       email: 'brucegne@gmail.com',
-      password: 'p2shiver'
+      password: 'p3shiver'
     }).then(function(authData) {
       console.log(authData);
     }).catch(function(error) {
