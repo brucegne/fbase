@@ -10,3 +10,21 @@ app.controller("SampleCtrl", function($scope, $firebase) {
   }
 });
 
+app.controller('AuthCtrl', function ($scope, $firebaseAuth) {
+  var ref = new Firebase('https://bgordon.firebaseio.com');
+
+  $scope.auth = $firebaseAuth(ref);
+
+  $scope.login = function() {
+    $scope.num = 'logging in';
+    $scope.auth.$authWithPassword({
+      email: 'brucegne@gmail.com',
+      password: 'p2shiver'
+    }).then(function(authData) {
+      console.log(authData);
+    }).catch(function(error) {
+      console.log(err);
+      $scope.num = err;
+    });
+  };
+});
